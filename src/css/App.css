@@ -1,11 +1,14 @@
 /* media query to give the page a set width above a certain screen width */
-@media (min-width: 1045px) {
+@media (min-width: 1285px) {
   .container-fluid {
-    width: 1040px;
+    max-width: 1280px;
   }
 }
 
-/* Prevent overflow for full page width rectangles */
 body {
   overflow-x: hidden;
+}
+
+*:focus {
+  outline: none !important;
 }

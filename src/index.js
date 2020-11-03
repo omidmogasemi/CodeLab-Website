@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./css/index.css";
 import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import reportWebVitals from "./reportWebVitals";
+
+const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
