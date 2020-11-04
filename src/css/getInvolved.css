@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+}
+
+.getinvolved {
+  position: absolute;
+  width: 406px;
+  height: 43px;
+  left: 200px;
+  top: 361px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.getinvolvedsub {
+  position: absolute;
+  width: 510px;
+  height: 60px;
+  left: 200px;
+  top: 430px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.projectteams {
+  position: absolute;
+  width: 1034px;
+  height: 43px;
+  left: 200px;
+  top: 700px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.clientbox {
+  position: absolute;
+  width: 510px;
+  height: 331px;
+  left: 200px;
+  top: 768px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.clientheader {
+  position: absolute;
+  width: 425px;
+  height: 36px;
+  left: 245px;
+  top: 809px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.clienttext {
+  position: absolute;
+  width: 425px;
+  height: 105px;
+  left: 245px;
+  top: 862px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+li {
+  margin-left: 50px;
+}
+.clientreqs {
+  position: absolute;
+  width: 477px;
+  height: 84px;
+  left: 180px;
+  top: 967px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.mentorbox {
+  position: absolute;
+  width: 510px;
+  height: 331px;
+  left: 730px;
+  top: 768px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.mentorheader {
+  position: absolute;
+  width: 425px;
+  height: 36px;
+  left: 775px;
+  top: 809px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.mentortext {
+  position: absolute;
+  width: 425px;
+  height: 105px;
+  left: 775px;
+  top: 862px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.mentorreqs {
+  position: absolute;
+  width: 477px;
+  height: 84px;
+  left: 710px;
+  top: 967px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.quarterheader {
+  position: absolute;
+  width: 1034px;
+  height: 43px;
+  left: 200px;
+  top: 1203px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.quartertext {
+  position: absolute;
+  width: 510px;
+  height: 273px;
+  left: 200px;
+  top: 1270px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.qtrimagespace {
+  position: absolute;
+  width: 363px;
+  height: 218px;
+  left: 803px;
+  top: 1299px;
+
+  background: #c4c4c4;
+}
