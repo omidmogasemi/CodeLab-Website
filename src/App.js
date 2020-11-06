@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/App.css";
+import "./css/getInvolved.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./components/navbar";
