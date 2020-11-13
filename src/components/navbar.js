@@ -1,5 +1,7 @@
 import React from "react";
 import { Grid, Link } from "@material-ui/core";
+import logo from "../logo.png";
+import styles from "../css/navbar.css"
 
 function Navbar(props) {
     return (
@@ -8,34 +10,36 @@ function Navbar(props) {
             {/* this is a container item. the xs={6} means that you're taking up half of the width of the grid container, which is the width of the entire red rectangle */}
             {/* think of the full width of the page as a unit of 12. you are taking up the 6 most left units first, or 6/12 AKA 1/2 of the entire page.  */}
             <Grid container item xs={6}>
-                The logo will go here!
+                <Link href="/">
+                    <img class="logo" src={logo} />
+                </Link>
             </Grid>
             {/* another container item taking up the right 6/12ths of the page */}
-            <Grid container item justify="flex-end" xs={6}>
+            <Grid container item justify="flex-end" xs={6} style={{marginTop: "1rem"}}>
                 {/* these are individual items inside of the container item. if you wanted each entry to be on a separate line you would not make them grid items */}
                 <Grid item>
                     <body1>
-                    <Link href="/">Home</Link>
+                        <Link class="text" href="/">Home</Link>
                     </body1>
                 </Grid>
                 <Grid item>
                     <body1>
-                    <Link href="/about">About</Link>
+                        <Link class="text" href="/about">About</Link>
                     </body1>
                 </Grid>
                 <Grid item>
                     <body1>
-                    <Link href="/projects">Projects</Link>
+                        <Link class="text" href="/projects">Projects</Link>
                     </body1>
                 </Grid>
                 <Grid item>
                     <body1>
-                    <Link href="/getinvolved">Get Involved</Link>
+                        <Link class="text" href="/getinvolved">Get Involved</Link>
                     </body1>
                 </Grid>
                 <Grid item>
                     <body1>
-                    <Link href="/contactus">Contact Us</Link>
+                        <Link class="text" href="/contactus">Contact Us</Link>
                     </body1>
                 </Grid>
             </Grid>

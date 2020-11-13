@@ -46,17 +46,14 @@ function home(props) {
                     </p>
                 </div>
             </Grid>
-            <Grid item>
-                <div>
-                <br></br>
-                    <Grid container item xs={6}>
+            <Grid container item>
+                <Grid container item xs={6}>
                     <img src="https://png.pngitem.com/pimgs/s/205-2054666_black-transparent-rectangle-png-png-download.png" className=  "./homeimg"/>
                     <img src="https://png.pngitem.com/pimgs/s/205-2054666_black-transparent-rectangle-png-png-download.png" className = "./homesimg" />
-                    </Grid>
-                    <Grid contanier item xs={6}>
-                        <img src="https://www.shareicon.net/data/512x512/2015/11/30/680302_vertical_512x512.png" className="./mainimg" />
-                    </Grid>
-                </div>
+                </Grid>
+                <Grid contanier item xs={6}>
+                    <img src="https://www.shareicon.net/data/512x512/2015/11/30/680302_vertical_512x512.png" className="./mainimg" />
+                </Grid>
             </Grid>
         </div>
     )
