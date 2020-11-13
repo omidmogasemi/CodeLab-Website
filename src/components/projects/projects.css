@@ -1,9 +1,6 @@
 .projectTitle {
-    position: absolute;
     width: 406px;
     height: 43px;
-    left: 200px;
-    top: 361px;    
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -15,11 +12,8 @@
 }
 
 .projectDesc {
-    position: absolute;
     width: 510px;
     height: 112px;
-    left: 200px;
-    top: 430px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -29,16 +23,67 @@
 }
 
 .projectWow {
-    position: absolute;
     width: 510px;
     height: 208px;
-    left: 466px;
-    top: 761px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
+    color: #000000;
+}
+
+.pastWork {
+    width: 1034px;
+    height: 43px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.pastWorkCard {
+    width: 333px;
+    height: 304px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.pastWorkCard-logo {
+    width: 265px;
+    height: 53px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.pastWorkCard-companyName {
+    width: 277px;
+    height: 43px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.pastWorkCard-description {
+    width: 277px;
+    height: 76px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
     color: #000000;
 }
