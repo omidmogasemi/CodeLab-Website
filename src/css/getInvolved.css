@@ -3,12 +3,12 @@ body {
 }
 
 .getinvolved {
-  position: absolute;
-  width: 406px;
+  /* position: absolute;*/
+  /* width: 406px;
   height: 43px;
   left: 200px;
-  top: 361px;
-
+  top: 361px; */
+  padding-top: 200px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -21,12 +21,11 @@ body {
 }
 
 .getinvolvedsub {
-  position: absolute;
-  width: 510px;
+  /*position: absolute;*/
+  /* width: 510px;
   height: 60px;
   left: 200px;
-  top: 430px;
-
+  top: 430px; */
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -37,12 +36,13 @@ body {
 }
 
 .projectteams {
-  position: absolute;
-  width: 1034px;
+  /* position: absolute;*/
+  /* width: 1034px;
   height: 43px;
   left: 200px;
-  top: 700px;
-
+  top: 700px; */
+  padding-top: 200px;
+  padding-bottom: 30px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -53,23 +53,23 @@ body {
 }
 
 .clientbox {
-  position: absolute;
+  /* position: absolute;*/
   width: 510px;
   height: 331px;
-  left: 200px;
-  top: 768px;
-
+  /*left: 200px;
+  top: 768px; */
   border: 1px solid #000000;
   box-sizing: border-box;
 }
 
 .clientheader {
-  position: absolute;
-  width: 425px;
+  /* position: absolute;*/
+  /* width: 425px;
   height: 36px;
   left: 245px;
-  top: 809px;
-
+  top: 809px; */
+  padding-top: 30px;
+  padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -81,12 +81,12 @@ body {
 }
 
 .clienttext {
-  position: absolute;
-  width: 425px;
+  /* position: absolute;*/
+  /* width: 425px;
   height: 105px;
   left: 245px;
-  top: 862px;
-
+  top: 862px; */
+  padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -96,14 +96,14 @@ body {
   color: #000000;
 }
 li {
-  margin-left: 50px;
+  margin-left: 25px;
 }
 .clientreqs {
-  position: absolute;
-  width: 477px;
+  /* position: absolute;*/
+  /* width: 477px;
   height: 84px;
   left: 180px;
-  top: 967px;
+  top: 967px; */
 
   font-family: Poppins;
   font-style: normal;
@@ -115,23 +115,23 @@ li {
 }
 
 .mentorbox {
-  position: absolute;
+  /* position: absolute;*/
   width: 510px;
   height: 331px;
-  left: 730px;
-  top: 768px;
-
+  /* left: 730px;
+  top: 768px; */
   border: 1px solid #000000;
   box-sizing: border-box;
 }
 
 .mentorheader {
-  position: absolute;
-  width: 425px;
+  /* position: absolute; */
+  /* width: 425px;
   height: 36px;
   left: 775px;
-  top: 809px;
-
+  top: 809px; */
+  padding-top: 30px;
+  padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -143,12 +143,12 @@ li {
 }
 
 .mentortext {
-  position: absolute;
-  width: 425px;
+  /* position: absolute; */
+  /* width: 425px;
   height: 105px;
   left: 775px;
-  top: 862px;
-
+  top: 862px; */
+  padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -159,11 +159,11 @@ li {
 }
 
 .mentorreqs {
-  position: absolute;
-  width: 477px;
+  /* position: absolute;*/
+  /* width: 477px;
   height: 84px;
   left: 710px;
-  top: 967px;
+  top: 967px; */
 
   font-family: Poppins;
   font-style: normal;
@@ -175,12 +175,12 @@ li {
 }
 
 .quarterheader {
-  position: absolute;
-  width: 1034px;
+  /* position: absolute;*/
+  /* width: 1034px;
   height: 43px;
   left: 200px;
-  top: 1203px;
-
+  top: 1203px; */
+  padding-top: 100px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -191,12 +191,12 @@ li {
 }
 
 .quartertext {
-  position: absolute;
-  width: 510px;
+  /* position: absolute;*/
+  /* width: 510px;
   height: 273px;
   left: 200px;
-  top: 1270px;
-
+  top: 1270px; */
+  padding-top: 30px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -207,11 +207,11 @@ li {
 }
 
 .qtrimagespace {
-  position: absolute;
+  /*position: absolute;*/
   width: 363px;
   height: 218px;
-  left: 803px;
-  top: 1299px;
+  /* left: 803px;
+  top: 1299px; */
 
   background: #c4c4c4;
 }
