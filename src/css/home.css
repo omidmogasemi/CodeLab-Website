@@ -1,4 +1,60 @@
 .toptext {
     font-family: Poppins;
-    font-size: 1.2rem;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.homesub {
+  position: absolute;
+  width: 686px;
+  height: 118px;
+  left: 377px;
+  top: 853px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  color: #000000;
+}
+
+.homeimg {
+  width: 510px;
+  height: 304px;
+  left: 200px;
+  top: 1043px;
+  background: #C4C4C4;
+}
+
+.homesimg {
+  width: 510px;
+  height: 304px;
+  background: #C4C4C4;
+}
+
+.homelimg {
+  width: 510px;
+  height: 633px;
+  background: #C4C4C4;
+}
+.mainimg {
+  width: 265px;
+  height: 53px;  
+  color: #000000;
+}
+
+.txtf {
+  width: 473px;
+  height: 160px;
+  left: 200px;
+  top: 430px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
 }
