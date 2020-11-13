@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "../../css/projects.css";
 import PastWorkCard from "./pastWorkCard";
 import { Grid } from "@material-ui/core";
 
