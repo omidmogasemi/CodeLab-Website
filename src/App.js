@@ -15,14 +15,14 @@ function App() {
 
   return (
     <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div style={{border: "2px solid red"}} class="col">
+      {/* <div class="row justify-content-center"> */}
+        {/* <div style={{border: "2px solid red"}} class="col"> */}
           <Router>
             <Navbar />
             <RouterPage />
           </Router>
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </div>
   )
 }

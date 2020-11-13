@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+  }
+  
+  .aboutus {
+    position: absolute;
+    width: 406px;
+    height: 43px;
+    left: 200px;
+    top: 453px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  }
+
+  .alumni {
+    position: absolute;
+    width: 1034px;
+    height: 43px;
+    left: 200px;
+    top: 1423px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+ 
+  }
+
+  .aboutustxt {
+    position: absolute;
+    width: 686px;
+    height: 204px;
+    left: 377px;
+    top: 897px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+  
+    color: #000000;
+  }
+
+  .groupPhoto {
+    display: inline-block;
+    position: absolute;
+    width: 598px;
+    height: 308px;
+    left: 642px;
+    top: 337px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo1 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 200px;
+    top: 1499px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo2 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 465px;
+    top: 1499px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo3 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 731px;
+    top: 1499px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo4 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 996px;
+    top: 1499px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo5 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 200px;
+    top: 1675px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo6 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 465px;
+    top: 1675px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo7 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 731px;
+    top: 1675px;
+
+    background: #C4C4C4;
+  }
+
+  .alumniLogo8 {
+    display: inline-block;
+    position: absolute;
+    width: 245px;
+    height: 156px;
+    left: 996px;
+    top: 1675px;
+
+    background: #C4C4C4;
+  }
