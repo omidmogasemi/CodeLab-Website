@@ -17,8 +17,7 @@ const about =()=> {
             <div className = "groupPhoto" />
             <Grid container item xs={12} justify="center">
                 <h2 className = "aboutustxt" >
-                Hey, we’re Codelab. Here’s how we started. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim volutpat dictum ullamcorper nec, velit, sed. Interdum faucibus lectus non aenean amet eleifend quis dolor scelerisque.
-
+                Hey, we’re Codelab. Here’s how we started. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim volutpat dictum ullamcorper nec, velit, sed. Interdum faucibus lectus non aenean amet eleifend quis dolor scelerisque. 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim volutpat dictum ullamcorper nec, velit, sed. Interdum faucibus lectus non aenean amet eleifend quis dolor scelerisque.
                 </h2>
             </Grid>
