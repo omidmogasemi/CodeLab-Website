@@ -50,6 +50,7 @@ function getInvolved(props) {
                             </ul>
                         </div>
                     </Grid>
+                    <Grid item xs={1} />
                     <Grid item xs={5}>
                         <div class="mentorbox">
                             <header class="mentorheader">Mentored Project</header>
@@ -98,6 +99,74 @@ function getInvolved(props) {
                         <div className="qtrimagespace"></div>
                     </Grid>
                 </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <Grid item xs={11}>
+                        <header class="faqheader">Frequently Asked Questions</header>
+                    </Grid>
+                </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <Grid item xs={5} direction="column">
+                        <header class="faqsubheader">Feugiat nec turpis sem sagittis nulla adipiscing bibendum sed?</header>
+                        <p class="faqtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque non, aliquet sed sodales nunc ultricies morbi purus neque. Quam sed porttitor suspendisse nulla non semper sed ipsum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum.</p>
+                    </Grid>
+
+                    <Grid item xs={1} />
+
+                    <Grid item xs={5} direction="column">
+                        <header class="faqsubheader">Feugiat nec turpis sem sagittis nulla adipiscing bibendum sed?</header>
+                        <p class="faqtext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque non, aliquet sed sodales nunc ultricies morbi purus neque. Quam sed porttitor suspendisse nulla non semper sed ipsum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum.</p>
+                    </Grid>
+                </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <Grid item xs={5} direction="column">
+                        <header class="faqsubheader">Feugiat nec turpis sem sagittis nulla adipiscing bibendum sed?</header>
+                        <p class="faqtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque non, aliquet sed sodales nunc ultricies morbi purus neque. Quam sed porttitor suspendisse nulla non semper sed ipsum.</p>
+                    </Grid>
+
+                    <Grid item xs={1} />
+
+                    <Grid item xs={5} direction="column">
+                        <header class="faqsubheader">Feugiat nec turpis sem sagittis nulla adipiscing bibendum sed?</header>
+                        <p class="faqtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque non, aliquet sed sodales nunc ultricies morbi purus neque. Quam sed porttitor suspendisse nulla non semper sed ipsum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum.</p>
+                    </Grid>
+                </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <Grid item xs={5} direction="column">
+                        <header class="faqsubheader">Feugiat nec turpis sem sagittis nulla adipiscing bibendum sed?</header>
+                        <p class="faqtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque non, aliquet sed sodales nunc ultricies morbi purus neque. Quam sed porttitor suspendisse nulla non semper sed ipsum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum. Quam egestas hendrerit nec imperdiet. Vestibulum tortor leo purus suspendisse tortor, mattis ornare nec massa. Cras rutrum augue purus quis arcu vel non. Adipiscing libero orci, ut lorem bibendum.</p>
+                    </Grid>
+
+                </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <Grid item xs={11}>
+                        <header class="readytoapply">Ready to Apply?</header>
+                    </Grid>
+                    <Grid item xs={1} />
+                    <Grid item xs={8}>
+                        <p class="applytext">We’re currently taking applications for the Winter 2021 term. Applications are due Wednesday, January 13th by 11:59PM.</p>
+                    </Grid>
+                </Grid>
+
+                <Grid item container>
+                    <Grid item xs={1} />
+                    <div class="applybutton">
+                        <Grid item xs={11}>
+                            <p class="applybuttontext">Apply Here</p>
+                        </Grid>
+                        
+                    </div>
+                </Grid>
+                
                
             
                 
