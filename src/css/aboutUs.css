@@ -139,3 +139,149 @@
 
   background: #C4C4C4;
 }
+
+.team {
+  width: 1034px;
+  height: 43px;
+  margin-top: 1979px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.teamPhoto1 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2053px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto2 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2053px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto3 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 730px;
+  top: 2053px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto4 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2053px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto5 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2406px;
+  
+  background: #C4C4C4;
+}
+
+.teamPhoto6 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2406px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto7 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 730px;
+  top: 2406px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto8 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2406px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto9 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2759px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto10 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2759px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto11 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 730px;
+  top: 2759px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto12 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2759px;
+
+  background: #C4C4C4;
+}

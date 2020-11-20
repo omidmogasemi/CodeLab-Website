@@ -33,6 +33,22 @@ const about =()=> {
             <div className = "alumniLogo6" />
             <div className = "alumniLogo7" />
             <div className = "alumniLogo8" />
+
+            <h3 className = "team" >
+                Our Team
+            </h3>
+            <div className = "teamPhoto1" />
+            <div className = "teamPhoto2" />
+            <div className = "teamPhoto3" />
+            <div className = "teamPhoto4" />
+            <div className = "teamPhoto5" />
+            <div className = "teamPhoto6" />
+            <div className = "teamPhoto7" />
+            <div className = "teamPhoto8" />
+            <div className = "teamPhoto9" />
+            <div className = "teamPhoto10" />
+            <div className = "teamPhoto11" />
+            <div className = "teamPhoto12" />
         </Grid>
     )
 }
