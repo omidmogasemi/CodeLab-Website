@@ -12,3 +12,7 @@ body {
 *:focus {
   outline: none !important;
 }
+
+.footer {
+  padding-top: 163px;
+}
