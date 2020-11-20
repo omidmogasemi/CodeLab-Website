@@ -215,3 +215,82 @@ li {
 
   background: #c4c4c4;
 }
+
+.faqheader {
+  padding-top: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.faqsubheader {
+  padding-top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.faqtext {
+  padding-top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.readytoapply {
+  padding-top: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.applytext {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.applybuttontext {
+  padding-left: 70px;
+  padding-top: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.applybutton {
+  width: 245px;
+  height: 61px;
+
+  background: #ff7070;
+  border-radius: 104px;
+}
