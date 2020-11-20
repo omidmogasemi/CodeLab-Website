@@ -1,13 +1,13 @@
 import React from "react"
 
-function InputBox(props) {
+function EmailBox(props) {
     return (
         <div>
             <label> {props.prompt} </label>
             <br></br>
-            <input style={{height: props.height, width: props.width}}/>
+            <input />
         </div>
     );
 }
 
-export default InputBox;
+export default EmailBox;

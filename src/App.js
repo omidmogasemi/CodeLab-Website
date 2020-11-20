@@ -4,6 +4,7 @@ import "./css/getInvolved.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer/footer";
 import RouterPage from "./components/RouterPage";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -20,6 +21,9 @@ function App() {
           <Router>
             <Navbar />
             <RouterPage />
+            <div className="footer">
+              <Footer />
+            </div>
           </Router>
         {/* </div> */}
       {/* </div> */}
