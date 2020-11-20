@@ -88,14 +88,6 @@ function getInvolved(props) {
                     </Grid>
                     <Grid item xs={1} />
                     <Grid item xs={4}>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
                         <div className="qtrimagespace"></div>
                     </Grid>
                 </Grid>
@@ -163,7 +155,6 @@ function getInvolved(props) {
                         <Grid item xs={11}>
                             <p class="applybuttontext">Apply Here</p>
                         </Grid>
-                        
                     </div>
                 </Grid>
                 

@@ -1,7 +1,7 @@
 .aboutus {
   width: 406px;
   height: 43px;
-  margin-top: 200px;
+  margin-top: 15rem;
 
   font-family: Poppins;
   font-style: normal;
@@ -51,6 +51,13 @@
   margin-top: 100px;
 
   background: #C4C4C4;
+}
+
+.alumniexample {
+  background: #C4C4C4;
+  width: 245px;
+  height: 156px;
+  margin-bottom: 2rem;
 }
 
 .alumniLogo1 {

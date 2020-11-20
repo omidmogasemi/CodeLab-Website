@@ -83,7 +83,6 @@
 }
 
 .pastWorkCard-companyName {
-    padding-left: 28px;
     width: 277px;
     height: 43px;
     font-family: Poppins;
@@ -95,7 +94,6 @@
 }
 
 .pastWorkCard-description {
-    padding-left: 28px;
     width: 277px;
     height: 76px;
     font-family: Poppins;

@@ -5,142 +5,155 @@
 }
 
 .subtext {
-font-family: Poppins;
-font-size: 24px;
-line-height: 36px;
-text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .homeimg {
-width: 510px;
-height: 304px;
-left: 200px;
-top: 1043px;
-background: #C4C4C4;
+  width: 510px;
+  height: 304px;
+  left: 200px;
+  top: 1043px;
+  background: #C4C4C4;
 }
 
 .homesimg {
-width: 510px;
-height: 304px;
-background: #C4C4C4;
+  width: 510px;
+  height: 304px;
+  background: #C4C4C4;
 }
 
 .homelimg {
-width: 510px;
-height: 633px;
-background: #C4C4C4;
+  width: 510px;
+  height: 633px;
+  background: #C4C4C4;
 }
 .mainimg {
-width: 265px;
-height: 53px;  
-color: #000000;
+  width: 265px;
+  height: 53px;  
+  color: #000000;
 }
 
 .txtf {
-width: 473px;
-height: 160px;
-left: 200px;
-top: 430px;
+  width: 473px;
+  height: 160px;
+  left: 200px;
+  top: 430px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
 
-color: #000000;
+  color: #000000;
+}
+
+@media (max-width: 575px) {
+  .txtf {
+    width: 300px;
+  }
 }
 
 .tagtext {
-font-family: Poppins;
-font-size: 24px;
-line-height: 36px;
-padding-top: 250px;
-color: #000000;
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 250px;
+  color: #000000;
 }
 
 .pastWorkCard {
-width: 333px;
-height: 304px;
-border: 1px solid #000000;
-box-sizing: border-box;
+  width: 333px;
+  height: 304px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
 }
 
 .pastWorkCard-logo {
-width: 265px;
-height: 53px;
-font-family: Inconsolata;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 50px;
+  width: 265px;
+  height: 53px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 50px;
 
-align-items: center;
-text-align: center;
-color: #000000;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .pastWorkCard-companyName {
-width: 277px;
-height: 43px;
-font-family: Poppins;
-font-size: 24px;
-line-height: 36px;
-align-items: center;
-text-align: center;
-color: #000000;
+  width: 277px;
+  height: 43px;
+  font-family: Poppins;
+  font-size: 24px;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .pastWorkCard-description {
-width: 277px;
-height: 76px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
-align-items: center;
-text-align: center;
-color: #000000;
+  width: 277px;
+  height: 76px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .homebox {
 
-display: inline-block;
-width: 360px;
-height: 300px;
-padding-top: 100px;
-background: #C4C4C4;
+  display: inline-block;
+  width: 360px;
+  height: 300px;
+  padding-top: 100px;
+  background: #C4C4C4;
 }
 
 .longbox {
 
-display: inline-block;
-width: 900px;
-height: 300px;
-padding-top: 100px;
-background: #D3D3D3;
+  display: inline-block;
+  width: 40rem; /* Good example for coding session on how to not size images, should be percents instead */ 
+  height: 20rem;
+  margin-right: 2rem; /* Good Example for coding session */ 
+  padding-top: 100px;
+  background: #D3D3D3;
 
 }
 
 .vtbox {
 
-display: inline-block;
-width: 500px;
-height: 640px;
-padding-top: 100px;
-background: #D3D3D3;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  background: #D3D3D3;
 
 }
 
-.buttonUi {
-background-color: rgb(0,128,0); 
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+.buttonui {
+  padding-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
 
+.applybutton {
+  background: #ff7070;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10rem;
+}
+
+.applybutton:hover {
+  cursor: pointer;
 }

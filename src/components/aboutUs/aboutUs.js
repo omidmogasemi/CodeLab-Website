@@ -24,14 +24,42 @@ const about =()=> {
             <h3 className = "alumni" >
                 Where Our Alumni Are Now
             </h3>
-            <div className = "alumniLogo1" />
+
+            <Grid container item xs={12}>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="alumniexample" />
+                </Grid>
+            </Grid>
+
+            {/* <div className = "alumniLogo1" />
             <div className = "alumniLogo2" />
             <div className = "alumniLogo3" />
             <div className = "alumniLogo4" />
             <div className = "alumniLogo5" />
             <div className = "alumniLogo6" />
             <div className = "alumniLogo7" />
-            <div className = "alumniLogo8" />
+            <div className = "alumniLogo8" /> */}
 
             <h3 className = "team" >
                 Our Team
