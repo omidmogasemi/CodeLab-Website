@@ -3,7 +3,12 @@ import { Grid, Link } from "@material-ui/core";
 import styles from "../../css/home.css"
 import img from "./logo.svg"
 import PastWorkCard from "../projects/pastWorkCard.js";
-
+import alogo from "./ambiiLogo.png";
+import Homepg from "./HomepageGraphic.png";
+import left from "./left.png";
+import bottom from "./bottomright.png";
+import topright from "./topright.png";
+import codelogo from "./codelabLogo.png";
 
 function home(props) { 
     return (
@@ -23,9 +28,9 @@ function home(props) {
                     We’re a team of driven, exploring developers at UC Davis, building projects for clients.
                 </p>
                 </Grid>
-                <Grid container item xs={1} md={2}/>
-                <Grid container item xs={11} md={3}>
-                    <div className="circle" />
+                <Grid container item xs={1} md={1}/>
+                <Grid container item xs={11} md={4}>
+                    <img className="homelogo" src={Homepg} />
                 </Grid>
                 <Grid container item xs={0} md={1} />
             </Grid>
@@ -43,17 +48,15 @@ function home(props) {
             </Grid>
 
             <Grid container>
-            <Grid container item xs={1} md={1}/>        
-            <Grid container item xs={11} md={5}>
-                <br></br>
-                    <div className=  "longbox"/>
+            <Grid container item xs={0} md={1}/>        
+            <Grid container item xs={12} md={5}>
+                <img className="homelogo" src={left} style={{marginRight: "1rem"}}/>
+            </Grid>
+            <Grid contanier item xs={12} md={6}>
+                    <img className="homelogo" src={topright} style={{marginBottom: "1rem"}}/>
                     <br></br>
-                    <div className=  "longbox"/>
-                </Grid>
-                <Grid contanier item xs={12} md={6}>
-                <br></br>
-                    <div className= "vtbox"/>
-                </Grid>
+                    <img className="homelogo" src={bottom}/>
+            </Grid>
             </Grid>
 
             <Grid item>
@@ -72,18 +75,18 @@ function home(props) {
                     <Grid container>
                     <Grid container iem xs={12} md={4}>
                     <PastWorkCard 
-                        logo = "logo"
-                        companyName= "Company Name" 
-                        projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat sagittis integer placerat quis metus, nisl, tellus. Sed diam et massa ante id egestas nunc lacus."
+                        logo = {alogo}
+                        companyName= "Ambii" 
+                        projectDescription= "Worked with Ambii, a music streaming service for buisnesses, to create an internal UI to manage their databases."
                     />    
                     </Grid>
-                    <Grid container item xs={12} md={3}>
-                        <div className = "homebox"/>
-                    </Grid>
-                    <Grid container item xs={0} md={1}/>
-                        <Grid container item xs={12} md ={3}>
-                            <div className = "homebox"/>
-                        </Grid>
+                    <Grid container item xs={0} md={3}/>
+                    <Grid container item xs={12} md={4}>
+                    <PastWorkCard 
+                        logo = {codelogo}
+                        companyName= "CodeLab" 
+                        projectDescription= "Built the many pages of CodLab's website with ReactJS."
+                    />                        </Grid>
                         <Grid container item xs={0} md={1}/>
                     </Grid>
                 </div>

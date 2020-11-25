@@ -2,11 +2,15 @@
   padding-top : 15rem;
 }
 
+.tspcae{
+  padding-top: 2rem;
+}
+
 .toptext {
   font-family: Poppins;
   font-size: 24px;
   line-height: 36px;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 .subtext {
@@ -55,15 +59,11 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 50px;
-  padding-left: 3rem;
   align-items: center;
-  text-align: center;
-  color: #000000;
 }
 
 .pastWorkCard-companyName {
   width: 277px;
-  padding-left: 3rem;
   height: 43px;
   font-family: Poppins;
   font-size: 24px;
@@ -75,7 +75,6 @@
 
 .pastWorkCard-description {
   width: 277px;
-  padding-left:3rem;
   height: 76px;
   font-family: Poppins;
   font-style: normal;
@@ -87,15 +86,6 @@
   color: #000000;
 }
 
-.circle {
-
-  background: #D3D3D3;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin-bottom: 0;
-}
-
 
 .longbox {
 
@@ -103,16 +93,6 @@
   width: 40rem; /* Good example for coding session on how to not size images, should be percents instead */ 
   height: 22rem;
   margin-right: 2rem; /* Good Example for coding session */ 
-  padding-top: 100px;
-  background: #D3D3D3;
-
-}
-
-.vtbox {
-
-  display: inline-block;
-  width: 100%;
-  height: 100%;
   padding-top: 100px;
   background: #D3D3D3;
 
@@ -151,4 +131,9 @@
 
 .applybutton:hover {
   cursor: pointer;
+}
+
+.homelogo {
+  width : 100%;
+  height: auto;
 }

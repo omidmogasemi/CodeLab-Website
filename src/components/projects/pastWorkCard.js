@@ -10,7 +10,7 @@ function PastWorkCard(props) {
             <Grid container>
                 <Grid item>
                     <Grid item container xs={12} justify="center">
-                        <p className="pastWorkCard-logo">{props.logo}</p>
+                        <img src={props.logo} style ={{marginTop:"2.5rem"}}></img>
                     </Grid>
                     <Grid item container xs ={12}>
                         <p className="pastWorkCard-companyName">{props.companyName}</p>
