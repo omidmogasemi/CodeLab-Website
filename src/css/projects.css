@@ -1,8 +1,8 @@
 .projectTitle {
     width: 406px;
     height: 43px;
-    padding-top: 222px;
-    padding-bottom: 26px;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -16,8 +16,8 @@
 .projectDesc {
     width: 510px;
     height: 112px;
-    padding-top: 26px;
-    padding-bottom: 219;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -27,10 +27,8 @@
 }
 
 .projectWow {
-    padding-top: 219px;
-    padding-bottom: 192px;
-    width: 510px;
-    height: 208px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     margin-top: 100px;
     font-family: Poppins;
     font-style: normal;
@@ -52,10 +50,7 @@
 }
 
 .pastWork {
-    padding-top: 192px;
-    padding-bottom: 26px;
-    width: 1034px;
-    height: 43px;
+    margin-top: 5rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -65,35 +60,40 @@
 }
 
 .pastWorkCard {
-    width: 333px;
-    height: 304px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
+    margin-bottom: 1rem;
+    width: 21rem;
+    height: 19rem;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px
+        rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    border: #FFFFFF;
 }
 
 .pastWorkCard-logo {
-    height: 53px;
-    font-family: Inconsolata;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    height: 7rem;
+    width: 7rem;
     align-items: center;
     text-align: center;
     color: #000000;
 }
 
 .pastWorkCard-companyName {
-    width: 277px;
-    height: 43px;
+    margin: 0rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
+    text-align: left;
     line-height: 36px;
     color: #000000;
 }
 
 .pastWorkCard-description {
+    margin: 0rem;
     width: 277px;
     height: 76px;
     font-family: Poppins;
@@ -101,12 +101,6 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
+    text-align: left;
     color: #000000;
-}
-
-.greyPlaceHolder {
-    padding-left: 20px;
-    width: 333px;
-    height: 304px;
-    background: #C4C4C4;
 }

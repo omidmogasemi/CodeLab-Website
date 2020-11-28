@@ -1,0 +1,46 @@
+.links {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.text {
+  font-family: Poppins;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.mailingListText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.malingListBox {
+  border: 2px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 104px;
+}
+
+.submitButton {
+  margin-top: 0px;
+  background: #ff7070;
+  border-radius: 104px;
+}
+
+.submitButtonText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
