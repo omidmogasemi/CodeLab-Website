@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Link } from "@material-ui/core";
 import styles from "../../css/home.css"
-import img from "./logo.svg"
+import logo from "./logo.svg"
 import PastWorkCard from "../projects/pastWorkCard.js";
 import alogo from "./ambiiLogo.png";
 import Homepg from "./HomepageGraphic.png";
@@ -14,25 +14,19 @@ function home(props) {
     return (
         <Grid container> 
             <Grid container>
-            <Grid container item xs={2} md={2}/>
-            <Grid container item xs={10} md={3}>
-            <div className="space" />
-                <img class="imagestyle"src={img}/>
-            </Grid>
-            </Grid>
-
-            <Grid container>
-                <Grid container item xs ={1} md={2} />
-                <Grid container item xs={11} md={4}>
-                <p class="txtf">
-                    We’re a team of driven, exploring developers at UC Davis, building projects for clients.
-                </p>
+                <Grid container item xs={1} />
+                <Grid container item xs={10} md={4}>
+                    <img className="imagestyle"src={logo}/>
+                    <p class="txtf">
+                        We’re a team of driven software developers at UC Davis building projects for companies and non-profits.
+                    </p>
                 </Grid>
-                <Grid container item xs={1} md={1}/>
-                <Grid container item xs={11} md={4}>
+                <Grid container item xs={1}/>
+                <Grid container item xs={1}/>
+                <Grid container item xs={10} md={5}>
                     <img className="homelogo" src={Homepg} />
                 </Grid>
-                <Grid container item xs={0} md={1} />
+
             </Grid>
             
             <Grid container>
@@ -47,16 +41,19 @@ function home(props) {
             <Grid container item xs={1} md={3}/>        
             </Grid>
 
-            <Grid container>
-            <Grid container item xs={0} md={1}/>        
-            <Grid container item xs={12} md={5}>
-                <img className="homelogo" src={left} style={{marginRight: "1rem"}}/>
-            </Grid>
-            <Grid contanier item xs={12} md={6}>
-                    <img className="homelogo" src={topright} style={{marginBottom: "1rem"}}/>
-                    <br></br>
-                    <img className="homelogo" src={bottom}/>
-            </Grid>
+            <Grid container style={{marginTop: "3rem"}}>
+                <Grid container item xs={1} />        
+                <Grid container item xs={10} md={5}>
+                    <img className="leftimage" src={left} style={{marginRight: "1rem"}}/>
+                </Grid>
+                <Grid container item xs={1} md={true}/>
+                <Grid container item xs={1} md={true} />
+                <Grid contanier item xs={10} md={5}>
+                        <img className="rightimage1" src={topright} style={{marginBottom: "1rem"}}/>
+                        <br></br>
+                        <img className="rightimage2" src={bottom}/>
+                </Grid>
+                <Grid container item xs={1} />
             </Grid>
 
             <Grid item>
@@ -86,8 +83,9 @@ function home(props) {
                         logo = {codelogo}
                         companyName= "CodeLab" 
                         projectDescription= "Built the many pages of CodLab's website with ReactJS."
-                    />                        </Grid>
-                        <Grid container item xs={0} md={1}/>
+                    />                        
+                    </Grid>
+                    <Grid container item xs={0} md={1}/>
                     </Grid>
                 </div>
             </Grid>

@@ -19,7 +19,9 @@ function App() {
       {/* <div class="row justify-content-center"> */}
         {/* <div style={{border: "2px solid red"}} class="col"> */}
           <Router>
-            <Navbar />
+            <div className="nav">
+              <Navbar />
+            </div>
             <RouterPage />
             <div className="footer">
               <Footer />

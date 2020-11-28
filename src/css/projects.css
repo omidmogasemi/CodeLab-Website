@@ -1,7 +1,7 @@
 .projectTitle {
     width: 406px;
     height: 43px;
-    margin-top: 15rem;
+    margin-top: 10rem;
     margin-bottom: 1rem;
     font-family: Poppins;
     font-style: normal;
@@ -61,13 +61,6 @@
 
 .pastWorkCard {
     margin-bottom: 1rem;
-    width: 21rem;
-    height: 19rem;
-    background: #FFFFFF;
-    box-shadow: 4px 4px 20px
-        rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
-    border: #FFFFFF;
 }
 
 .pastWorkCard-logo {

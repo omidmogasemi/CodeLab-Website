@@ -9,7 +9,7 @@ function Navbar(props) {
     <Grid container>
       {/* this is a container item. the xs={6} means that you're taking up half of the width of the grid container, which is the width of the entire red rectangle */}
       {/* think of the full width of the page as a unit of 12. you are taking up the 6 most left units first, or 6/12 AKA 1/2 of the entire page.  */}
-      <Grid container item xs={6}>
+      <Grid container item xs={3}>
         <Link href="/">
           <img class="logo" src={logo} />
         </Link>
@@ -19,7 +19,7 @@ function Navbar(props) {
         container
         item
         justify="flex-end"
-        xs={6}
+        xs={9}
         style={{ marginTop: "1rem" }}
       >
         {/* these are individual items inside of the container item. if you wanted each entry to be on a separate line you would not make them grid items */}
