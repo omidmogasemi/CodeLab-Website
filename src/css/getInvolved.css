@@ -54,12 +54,15 @@ body {
 
 .clientbox {
   /* position: absolute;*/
-  width: 510px;
-  height: 331px;
+  width: 31rem;
+  height: 21rem;
   /*left: 200px;
   top: 768px; */
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  background: #ffffff;
+  /* Drop Shadow */
+
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .clientheader {
@@ -116,12 +119,14 @@ li {
 
 .mentorbox {
   /* position: absolute;*/
-  width: 510px;
-  height: 331px;
+  width: 31rem;
+  height: 21rem;
   /* left: 730px;
   top: 768px; */
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  background: #ffffff;
+  /* Drop Shadow */
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .mentorheader {
@@ -209,12 +214,10 @@ li {
 .qtrimagespace {
   /*position: absolute;*/
   margin-top: 10rem;
-  width: 363px;
-  height: 218px;
+  width: 494px;
+  height: 323px;
   /* left: 803px;
   top: 1299px; */
-
-  background: #c4c4c4;
 }
 
 .faqheader {
@@ -274,8 +277,8 @@ li {
 }
 
 .applybuttontext {
-  padding-left: 70px;
-  padding-top: 17px;
+  padding-top: 0.5rem;
+  padding-left: 1.8rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
