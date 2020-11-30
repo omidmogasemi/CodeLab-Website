@@ -1,8 +1,8 @@
 .aboutus {
+  position: absolute;
   width: 406px;
   height: 43px;
   margin-top: 15rem;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -10,7 +10,7 @@
   line-height: 72px;
   display: flex;
   align-items: center;
-
+  
   color: #000000;
 }
 
@@ -32,25 +32,28 @@
 }
 
 .aboutustxt {
-  width: 686px;
-  height: 204px;
-  margin-top: 150px;
-
+  position: absolute;
+  width: 759px;
+  height: 693px;
+  left: 341px;
+  top: 897px;
+  
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-
+  
   color: #000000;
 }
 
 .groupPhoto {
-  width: 598px;
-  height: 308px;
-  margin-top: 100px;
-
-  background: #C4C4C4;
+  position: absolute;
+  width: 619px;
+  height: 387px;
+  left: 621px;
+  top: 281px;
+ 
 }
 
 .alumniexample {
@@ -148,17 +151,19 @@
 }
 
 .team {
-  width: 1034px;
-  height: 43px;
-  margin-top: 1979px;
+position: absolute;
+width: 1034px;
+height: 43px;
+left: 200px;
+top: 1685px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
 
-  color: #000000;
+color: #000000;
 }
 
 .teamPhoto1 {
@@ -178,17 +183,6 @@
   width: 245px;
   height: 245px;
   left: 465px;
-  top: 2053px;
-
-  background: #C4C4C4;
-}
-
-.teamPhoto3 {
-  display: inline-block;
-  position: absolute;
-  width: 245px;
-  height: 245px;
-  left: 730px;
   top: 2053px;
 
   background: #C4C4C4;
