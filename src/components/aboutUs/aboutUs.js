@@ -22,11 +22,11 @@ const about =()=> {
             </div> 
             <Grid container item xs={12} justify="center">
                 <h2 className = "aboutustxt" >
-                Hey, we’re Codelab. The four of us—Essam, Omid, James, and Edward—went through our first year at UC Davis feeling like there wasn’t enough of a computer science community. With heavily theoretical coursework, it could be difficult to develop the skills associated with real world applications of our coding knowledge.
+                Hey, we’re Codelab. The four of us—Essam, Omid, James, and Edward—went through our first year at UC Davis feeling like there wasn’t enough of a computer science community. With heavily theoretical coursework, it could be difficult to develop the skills associated with real world applications of our coding knowledge. {"\n"}
 
-And so, we built CodeLab, a software development organization at UC Davis. In CodeLab, developers work in small teams on real-world projects, from web development to data science. Client Projects provide devlopers with the opportunity to contribute to companies, and Mentored Projects allow developers to learn new skills under the guidance of an experienced student.
+                And so, we built CodeLab, a software development organization at UC Davis. In CodeLab, developers work in small teams on real-world projects, from web development to data science. Client Projects provide devlopers with the opportunity to contribute to companies, and Mentored Projects allow developers to learn new skills under the guidance of an experienced student. {"\n"}
 
-Today, we are a team of driven computer science students creating pieces of code we are proud of. And through it all, we are always learning and always innovating.
+                Today, we are a team of driven computer science students creating pieces of code we are proud of. And through it all, we are always learning and always innovating.
                 </h2>
             </Grid>
 
