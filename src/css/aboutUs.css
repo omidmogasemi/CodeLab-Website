@@ -1,8 +1,10 @@
 .aboutus {
+  position: absolute;
   width: 406px;
   height: 43px;
-  margin-top: 200px;
-
+  left: 200px;
+  top: 453px;
+  
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -10,7 +12,7 @@
   line-height: 72px;
   display: flex;
   align-items: center;
-
+  
   color: #000000;
 }
 
@@ -32,25 +34,28 @@
 }
 
 .aboutustxt {
-  width: 686px;
-  height: 204px;
-  margin-top: 150px;
-
+  position: absolute;
+  width: 759px;
+  height: 693px;
+  left: 341px;
+  top: 897px;
+  
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-
+  
   color: #000000;
 }
 
 .groupPhoto {
-  width: 598px;
-  height: 308px;
-  margin-top: 100px;
-
-  background: #C4C4C4;
+  position: absolute;
+  width: 619px;
+  height: 387px;
+  left: 621px;
+  top: 281px;
+ 
 }
 
 .alumniLogo1 {
@@ -136,6 +141,145 @@
   left: 1140px;
   top: 1200px;
   margin-bottom: 100px;
+
+  background: #C4C4C4;
+}
+
+.team {
+  position: absolute;
+width: 1034px;
+height: 43px;
+left: 200px;
+top: 1685px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+
+color: #000000;
+
+
+}
+
+.teamPhoto1 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 200px;
+top: 1759px;
+
+border-radius: 10px;
+}
+
+.teamPhoto2 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 465px;
+top: 1759px;
+
+border-radius: 10px;
+}
+
+.teamPhoto3 {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 730px;
+  top: 1759px;
+  
+  border-radius: 10px;
+}
+
+.teamPhoto4 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 995px;
+top: 1759px;
+
+border-radius: 10px;
+}
+
+.teamPhoto5 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 200px;
+top: 2112px;
+
+border-radius: 10px;
+}
+
+.teamPhoto6 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 465px;
+top: 2112px;
+
+border-radius: 10px;
+}
+
+.teamPhoto7 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 730px;
+top: 2112px;
+
+border-radius: 10px;
+}
+
+.teamPhoto8 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 995px;
+top: 2112px;
+
+border-radius: 10px;
+}
+
+.teamPhoto9 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 200px;
+top: 2465px;
+
+border-radius: 10px;
+}
+
+.teamPhoto10 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 465px;
+top: 2465px;
+
+border-radius: 10px;
+}
+
+.teamPhoto11 {
+  position: absolute;
+width: 245px;
+height: 245px;
+left: 730px;
+top: 2465px;
+
+border-radius: 10px;
+}
+
+.teamPhoto12 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2759px;
 
   background: #C4C4C4;
 }
