@@ -1,7 +1,8 @@
 .projectTitle {
     width: 406px;
     height: 43px;
-    margin-top: 150px;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -15,7 +16,8 @@
 .projectDesc {
     width: 510px;
     height: 112px;
-    margin-top: 25px;
+    margin-top: 0rem;
+    margin-bottom: 10rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -25,8 +27,8 @@
 }
 
 .projectWow {
-    width: 510px;
-    height: 208px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     margin-top: 100px;
     font-family: Poppins;
     font-style: normal;
@@ -37,9 +39,18 @@
     color: #000000;
 }
 
+.redWow {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FF7070;
+}
+
 .pastWork {
-    width: 1034px;
-    height: 43px;
+    margin-top: 5rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -49,38 +60,33 @@
 }
 
 .pastWorkCard {
-    width: 333px;
-    height: 304px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .pastWorkCard-logo {
-    width: 265px;
-    height: 53px;
-    font-family: Inconsolata;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 50px;
-
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    height: 7rem;
+    width: 7rem;
     align-items: center;
     text-align: center;
     color: #000000;
 }
 
 .pastWorkCard-companyName {
-    width: 277px;
-    height: 43px;
+    margin: 0rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
+    text-align: left;
     line-height: 36px;
     color: #000000;
 }
 
 .pastWorkCard-description {
+    margin: 0rem;
     width: 277px;
     height: 76px;
     font-family: Poppins;
@@ -88,5 +94,6 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
+    text-align: left;
     color: #000000;
 }

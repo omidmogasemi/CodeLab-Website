@@ -8,7 +8,7 @@ body {
   height: 43px;
   left: 200px;
   top: 361px; */
-  padding-top: 150px;
+  margin-top: 10rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -54,12 +54,15 @@ body {
 
 .clientbox {
   /* position: absolute;*/
-  width: 510px;
-  height: 331px;
+  width: 31rem;
+  height: 21rem;
   /*left: 200px;
   top: 768px; */
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  background: #ffffff;
+  /* Drop Shadow */
+
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .clientheader {
@@ -116,12 +119,14 @@ li {
 
 .mentorbox {
   /* position: absolute;*/
-  width: 510px;
-  height: 331px;
+  width: 31rem;
+  height: 21rem;
   /* left: 730px;
   top: 768px; */
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  background: #ffffff;
+  /* Drop Shadow */
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .mentorheader {
@@ -208,10 +213,88 @@ li {
 
 .qtrimagespace {
   /*position: absolute;*/
-  width: 363px;
-  height: 218px;
+  margin-top: 10rem;
+  width: 494px;
+  height: 323px;
   /* left: 803px;
   top: 1299px; */
+}
 
-  background: #c4c4c4;
+.faqheader {
+  padding-top: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.faqsubheader {
+  padding-top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.faqtext {
+  padding-top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.readytoapply {
+  padding-top: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.applytext {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.applybuttontext {
+  padding-top: 0.5rem;
+  padding-left: 1.8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.applybutton {
+  width: 245px;
+  height: 61px;
+
+  background: #ff7070;
+  border-radius: 104px;
 }

@@ -2,9 +2,7 @@
   position: absolute;
   width: 406px;
   height: 43px;
-  left: 200px;
-  top: 453px;
-  
+  margin-top: 15rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -56,6 +54,13 @@
   left: 621px;
   top: 281px;
  
+}
+
+.alumniexample {
+  background: #C4C4C4;
+  width: 245px;
+  height: 156px;
+  margin-bottom: 2rem;
 }
 
 .alumniLogo1 {
@@ -146,7 +151,7 @@
 }
 
 .team {
-  position: absolute;
+position: absolute;
 width: 1034px;
 height: 43px;
 left: 200px;
@@ -159,118 +164,116 @@ font-size: 24px;
 line-height: 36px;
 
 color: #000000;
-
-
 }
 
 .teamPhoto1 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 200px;
-top: 1759px;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2053px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto2 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 465px;
-top: 1759px;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2053px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
-.teamPhoto3 {
+.teamPhoto4 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2053px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto5 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2406px;
+  
+  background: #C4C4C4;
+}
+
+.teamPhoto6 {
+  display: inline-block;
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2406px;
+
+  background: #C4C4C4;
+}
+
+.teamPhoto7 {
+  display: inline-block;
   position: absolute;
   width: 245px;
   height: 245px;
   left: 730px;
-  top: 1759px;
-  
-  border-radius: 10px;
-}
+  top: 2406px;
 
-.teamPhoto4 {
-  position: absolute;
-width: 245px;
-height: 245px;
-left: 995px;
-top: 1759px;
-
-border-radius: 10px;
-}
-
-.teamPhoto5 {
-  position: absolute;
-width: 245px;
-height: 245px;
-left: 200px;
-top: 2112px;
-
-border-radius: 10px;
-}
-
-.teamPhoto6 {
-  position: absolute;
-width: 245px;
-height: 245px;
-left: 465px;
-top: 2112px;
-
-border-radius: 10px;
-}
-
-.teamPhoto7 {
-  position: absolute;
-width: 245px;
-height: 245px;
-left: 730px;
-top: 2112px;
-
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto8 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 995px;
-top: 2112px;
+  width: 245px;
+  height: 245px;
+  left: 995px;
+  top: 2406px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto9 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 200px;
-top: 2465px;
+  width: 245px;
+  height: 245px;
+  left: 200px;
+  top: 2759px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto10 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 465px;
-top: 2465px;
+  width: 245px;
+  height: 245px;
+  left: 465px;
+  top: 2759px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto11 {
+  display: inline-block;
   position: absolute;
-width: 245px;
-height: 245px;
-left: 730px;
-top: 2465px;
+  width: 245px;
+  height: 245px;
+  left: 730px;
+  top: 2759px;
 
-border-radius: 10px;
+  background: #C4C4C4;
 }
 
 .teamPhoto12 {

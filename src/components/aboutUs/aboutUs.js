@@ -33,6 +33,7 @@ const about =()=> {
             <h3 className = "team" >
                 Our Team
             </h3>
+      
             <div className = "teamPhoto1" >
             <img src = "/aboutImages/Group 8.png" alt='' />
             </div>
@@ -66,7 +67,6 @@ const about =()=> {
             <div className = "teamPhoto11" >
             <img src = "/aboutImages/Group 19.png" alt='' />
             </div>
-            
         </Grid>
     )
 }

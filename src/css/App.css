@@ -12,3 +12,18 @@ body {
 *:focus {
   outline: none !important;
 }
+
+.footer {
+  padding-top: 163px;
+}
+
+.nav {
+  visibility: visible;
+}
+
+@media (max-width: 768px)
+{
+  .nav {
+    visibility: hidden;
+  }
+}
