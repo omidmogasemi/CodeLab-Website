@@ -1,5 +1,5 @@
 .contactTitle {
-  margin-top: 15rem;
+  margin-top: 10rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -8,6 +8,12 @@
   display: flex;
   align-items: center;
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .contactTitle {
+    margin-top: 1rem;
+  }
 }
 
 .contactq {
@@ -48,7 +54,7 @@
 }
 
 .inputBox {
-  border: 2px solid #C4C4C4;
+  border: 2px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 5px;
 }

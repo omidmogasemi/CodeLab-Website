@@ -2,14 +2,13 @@
   margin-top: 10rem;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   .imagestyle {
     margin-top: 1rem;
   }
 }
 
-.tspcae{
+.tspcae {
   padding-top: 2rem;
 }
 
@@ -24,7 +23,6 @@
   font-family: Poppins;
   font-size: 24px;
   line-height: 36px;
-  text-align: center;
 }
 
 .txtf {
@@ -36,8 +34,7 @@
   color: #000000;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   .txtf {
     margin-top: 1.5rem;
   }
@@ -47,71 +44,8 @@
   font-family: Poppins;
   font-size: 24px;
   line-height: 36px;
-  padding-top: 250px;
+  margin-top: 5rem;
   color: #000000;
-}
-
-.pastWorkCard {
-  width: 333px;
-  height: 304px;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-}
-
-.pastWorkCard-logo {
-  width: 265px;
-  height: 53px;
-  font-family: Inconsolata;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 50px;
-  align-items: center;
-}
-
-.pastWorkCard-companyName {
-  width: 277px;
-  height: 43px;
-  font-family: Poppins;
-  font-size: 24px;
-  line-height: 36px;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-}
-
-.pastWorkCard-description {
-  width: 277px;
-  height: 76px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-}
-
-
-.longbox {
-
-  display: inline-block;
-  width: 40rem; /* Good example for coding session on how to not size images, should be percents instead */ 
-  height: 22rem;
-  margin-right: 2rem; /* Good Example for coding session */ 
-  padding-top: 100px;
-  background: #D3D3D3;
-
-}
-
-.homebox {
-
-  display: inline-block;
-  width: 42rem;
-  height: 19rem;
-  padding-top: 100px;
-  background: #C4C4C4;
 }
 
 .applybuttontext {
@@ -129,26 +63,42 @@
   color: #ffffff;
 }
 
-.applybutton {
+.applyButton {
+  width: 12rem;
+  margin-bottom: 0px;
   background: #ff7070;
-  width: 10rem;
+  border-radius: 100px;
   height: 3rem;
-  border-radius: 10rem;
+  border: 0px solid transparent;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s;
 }
 
-.applybutton:hover {
+.applyButton:hover {
   cursor: pointer;
+  background: #471f1f;
+}
+
+.linkstyle {
+  color: #ffffff;
+  border: 2px solid yellow;
 }
 
 .homelogo {
   margin-top: 5rem;
   margin-bottom: 3rem;
-  width : 100%;
+  width: 100%;
   height: auto;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   .homelogo {
     margin-top: 2rem;
     margin-bottom: 7.5rem;
@@ -156,16 +106,16 @@
 }
 
 .leftimage {
-  width : 100%;
+  width: 100%;
   height: auto;
 }
 
 .rightimage1 {
-  width : 100%;
+  width: 100%;
   height: auto;
 }
 
 .rightimage2 {
-  width : 100%;
+  width: 100%;
   height: auto;
 }

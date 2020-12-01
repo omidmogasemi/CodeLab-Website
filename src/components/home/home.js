@@ -3,12 +3,12 @@ import { Grid, Link } from "@material-ui/core";
 import styles from "../../css/home.css"
 import logo from "./logo.svg"
 import PastWorkCard from "../projects/pastWorkCard.js";
-import alogo from "./ambiiLogo.png";
+import ambiilogo from "./ambiiLogo.png";
 import Homepg from "./HomepageGraphic.png";
 import left from "./left.png";
 import bottom from "./bottomright.png";
 import topright from "./topright.png";
-import codelogo from "./codelabLogo.png";
+import codelablogo from "./codelabLogo.png";
 
 function home(props) { 
     return (
@@ -22,9 +22,11 @@ function home(props) {
                     </p>
                 </Grid>
                 <Grid container item xs={1}/>
-                <Grid container item xs={1}/>
                 <Grid container item xs={10} md={5}>
-                    <img className="homelogo" src={Homepg} />
+                    <Grid container item xs={2} />
+                    <Grid container item xs={10}>
+                        <img className="homelogo" src={Homepg} />
+                    </Grid>
                 </Grid>
 
             </Grid>
@@ -56,59 +58,50 @@ function home(props) {
                 <Grid container item xs={1} />
             </Grid>
 
-            <Grid item>
-            <div>
-                <p className="tagtext"> <b>Our Projects</b></p>
-
-            <Grid item container xs={12} md={12}>
-                <p className="subtext">  Here are some of the projects we have worked on in the past. </p>
+            <Grid container>
+                <Grid item container xs={1} /> 
+                <Grid item xs={10}>
+                    <p className="tagtext"> <b>Our Projects</b></p>
+                    <p className="subtext">  Here are some of the projects we have worked on in the past. </p>
+                </Grid>
+                <Grid item container xs={1} /> 
             </Grid>
-            </div>
-            </Grid>
 
-            <Grid item>
-                <div>
-                    <br></br>
-                    <Grid container>
-                    <Grid container iem xs={12} md={4}>
+            <Grid container justify="flex-start" spacing={3}>
+                <Grid container item xs={0} md={1}></Grid>
+                <Grid container item xs={12} md={3}>
                     <PastWorkCard 
-                        logo = {alogo}
-                        companyName= "Ambii" 
-                        projectDescription= "Worked with Ambii, a music streaming service for buisnesses, to create an internal UI to manage their databases."
-                    />    
-                    </Grid>
-                    <Grid container item xs={0} md={3}/>
-                    <Grid container item xs={12} md={4}>
+                        logo={ambiilogo} 
+                        companyName="Ambii" 
+                        projectDescription="Worked with Ambii, a music streaming service for businesses, to create an internal UI to manage their databases."
+                    />
+                </Grid>
+                <Grid container item xs={12} md={3}>
                     <PastWorkCard 
-                        logo = {codelogo}
-                        companyName= "CodeLab" 
-                        projectDescription= "Built the many pages of CodLab's website with ReactJS."
-                    />                        
-                    </Grid>
-                    <Grid container item xs={0} md={1}/>
-                    </Grid>
-                </div>
+                        logo={codelablogo}
+                        companyName="CodeLab"
+                        projectDescription="Built the many pages of CodeLab’s website with ReactJS."
+                    />
+                </Grid>
+                <Grid container item xs={12} md={3}></Grid>
+                <Grid container item xs={1}></Grid>
             </Grid>
 
-                <Grid item>
-                    <div>
+                <Grid container>
+                    <Grid item container xs={1} />
+                    <Grid item xs={10} md={10}>
                         <p className="tagtext"> <b>Join Us! </b></p>
-                        <br></br>
-                        <Grid item container xs={12} md={12}>
-                            <p className="subtext">  We recruit twice a year, once in fall quarter and once in spring quarter. </p>
+                        <p className="subtext">  We recruit twice a year, once in fall quarter and once in spring quarter. </p>
+                    </Grid>
+                    <Grid item container xs={1} />
+                    <Grid item container xs={1} />
+                        <Grid container item xs={11} md={11}>
+                            <Link href="/aboutus">
+                                <button className="applyButton">
+                                    <body1>Learn More</body1>
+                                </button>
+                            </Link>                        
                         </Grid>
-                        <br></br>
-                        <Grid contaner>
-                        <Grid container item xs={1} md={1}/>
-                        <div class="applybutton">
-                            <Grid container item xs={11} md={11}>
-                            <Link class="text" href="/contactus">
-                                <body1 class="applybuttontext">Apply Here</body1>
-                            </Link>
-                            </Grid>
-                        </div>
-                        </Grid>
-                    </div>
                 </Grid>
             </Grid>
     )

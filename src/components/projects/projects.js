@@ -46,14 +46,14 @@ function projects(props) {
                 <Grid container item xs={0} md={1}></Grid>
                 <Grid container item xs={12} md={3}>
                     <PastWorkCard 
-                        logosource="ambiilogo" 
+                        logo={ambiilogo} 
                         companyName="Ambii" 
                         projectDescription="Worked with Ambii, a music streaming service for businesses, to create an internal UI to manage their databases."
                     />
                 </Grid>
                 <Grid container item xs={12} md={3}>
                     <PastWorkCard 
-                        logosource="codelablogo"
+                        logo={codelablogo}
                         companyName="CodeLab"
                         projectDescription="Built the many pages of CodeLab’s website with ReactJS."
                     />

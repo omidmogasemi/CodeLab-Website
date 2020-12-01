@@ -19,15 +19,17 @@ const about =()=> {
         <Grid container>
             <Grid container>
                 <Grid container item xs={1} />
-                <Grid container item xs={10} md={4}>
+                <Grid container item xs={10} md={3}>
                     <h1 className="aboutus">
                         about us.
                     </h1>
                 </Grid>
                 <Grid container item xs={1}/>
-                <Grid container item xs={1}/>
-                <Grid container item xs={10} md={5}>
-                    <img src={groupphoto} className="topimage" alt='' />
+                <Grid container item xs={10} md={6}>
+                    <Grid container item xs={2} />
+                    <Grid container item xs={10}>
+                        <img className="topimage" src={groupphoto} />
+                    </Grid>
                 </Grid>
             </Grid>
             <Grid container item xs={1} md={2} />

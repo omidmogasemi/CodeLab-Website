@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Link } from "@material-ui/core";
 import logo from "../../logo.png";
-import EmailBox from "./emailBox";
+import "../../css/footer.css";
 
 function Footer(props) {
   return (
@@ -48,9 +48,12 @@ function Footer(props) {
 
         <Grid container item>
           <input className="mailingListBox" type="text" placeholder="Email" />
-          <div className="submitButton">
+          {/* <div className="submitButton">
             <p className="submitButtonText">Submit</p>
-          </div>
+          </div> */}
+          <button className="submitButton">
+            <body1 className="submitButtonText">Submit</body1>
+          </button>
         </Grid>
       </Grid>
 

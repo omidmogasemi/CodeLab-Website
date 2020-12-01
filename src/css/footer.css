@@ -22,25 +22,42 @@
   color: #000000;
 }
 
-.malingListBox {
+.mailingListBox {
   border: 2px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 104px;
+  width: 80%;
+}
+
+::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 212.5%;
+  align-items: center;
+  color: #c4c4c4;
+  padding-left: 1rem;
 }
 
 .submitButton {
+  margin-left: -7rem;
   margin-top: 0px;
+  width: 20%;
+  margin-bottom: 0px;
   background: #ff7070;
   border-radius: 104px;
+  height: 3rem;
+  border: 0px solid transparent;
 }
 
 .submitButtonText {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }

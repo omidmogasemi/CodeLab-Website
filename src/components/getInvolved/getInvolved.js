@@ -153,9 +153,11 @@ function getInvolved(props) {
                 <Grid item container>
                     <Grid item xs={2} md={1} />
                     <Grid item xs={4}md={3}>
-                        <div class="applybutton">
-                            <p class="applybuttontext">Apply Here</p>
-                        </div>
+                        <Link href="/contactus">
+                            <button className="applyButton">
+                                <body1>Apply Here</body1>
+                            </button>
+                        </Link>
                     </Grid>
                 </Grid>
             </div>
