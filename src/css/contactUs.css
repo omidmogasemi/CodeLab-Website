@@ -1,0 +1,54 @@
+.contactTitle {
+  margin-top: 15rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.contactq {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  font-size: 1.2rem;
+  line-height: 2rem;
+
+  color: #000000;
+}
+
+.chatTitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  padding-top: 5rem;
+
+  color: #000000;
+}
+
+.chatTxt {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding-top: 1rem;
+
+  color: #000000;
+}
+
+.space {
+  padding-top: 2rem;
+}
+
+.inputBox {
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
