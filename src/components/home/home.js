@@ -18,7 +18,7 @@ function home(props) {
                 <Grid container item xs={10} md={4}>
                     <img className="imagestyle"src={logo}/>
                     <p class="txtf">
-                        We’re a team of driven software developers at UC Davis building projects for companies and non-profits.
+                        We’re a team of driven software developers at UC Davis building projects for companies and <br></br>non-profits.
                     </p>
                 </Grid>
                 <Grid container item xs={1}/>
@@ -32,8 +32,8 @@ function home(props) {
             </Grid>
             
             <Grid container>
-            <Grid container item xs={2} md={3} />
-                <Grid container item xs={9} md={6}>
+            <Grid container item xs={1} md={3} />
+                <Grid container item xs={10} md={6}>
                     <p className="toptext"> 
                     We're not just an orgranization, but a team
                     and a community, always learning from each other
