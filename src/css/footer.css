@@ -13,6 +13,10 @@
   color: #000000;
 }
 
+.text:hover {
+  color: #808080;
+}
+
 .mailingListText {
   font-family: Poppins;
   font-style: normal;
@@ -49,6 +53,7 @@
   border-radius: 104px;
   height: 3rem;
   border: 0px solid transparent;
+  transition: 0.3s;
 }
 
 .submitButtonText {
@@ -60,4 +65,26 @@
   align-items: center;
   text-align: center;
   color: #ffffff;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+  background: #471f1f;
+}
+
+.mobileinvisible {
+}
+
+.logoposition {
+  margin-top: 4.75rem;
+}
+
+@media (max-width: 768px) {
+  .mobileinvisible {
+    display: none !important;
+  }
+
+  .logoposition {
+    margin-top: 1rem;
+  }
 }
