@@ -14,13 +14,15 @@ function projects(props) {
                     <div className="projectTitle">projects.</div>
                 </Grid>
                 <Grid container item xs={0} md={1}></Grid>
-                <Grid container item xs={12} md={11}>
+                <Grid container item xs={12} md={5}>
                     <p className="projectDesc">
                         Each quarter, our teams take on projects
                         for clients or for developing the team's
                         coding skills.
                     </p>
                 </Grid>
+                <Grid container item xs={0} md={6}></Grid>
+                
                 <Grid container item xs={0} md={3}></Grid>
                 <Grid container item justify="center" xs={12} md={6}>    
                     <p className="projectWow">
@@ -35,14 +37,14 @@ function projects(props) {
                 </Grid>
                 <Grid container item xs={0} md={3}></Grid>
 
-                <Grid container item xs={0} md={1}></Grid>
-                <Grid container item xs={12} md={11}>
+                <Grid container item xs={1}></Grid>
+                <Grid container item xs={11}>
                     <p className="pastWork">Here's some of our past work.</p>
                 </Grid>
 
             </Grid>
 
-            <Grid container justify="flex-start" spacing={3}>
+            <Grid container spacing={3}>
                 <Grid container item xs={0} md={1}></Grid>
                 <Grid container item xs={12} md={3}>
                     <PastWorkCard 
@@ -51,6 +53,7 @@ function projects(props) {
                         projectDescription="Worked with Ambii, a music streaming service for businesses, to create an internal UI to manage their databases."
                     />
                 </Grid>
+
                 <Grid container item xs={12} md={3}>
                     <PastWorkCard 
                         logo={codelablogo}
@@ -58,8 +61,6 @@ function projects(props) {
                         projectDescription="Built the many pages of CodeLab’s website with ReactJS."
                     />
                 </Grid>
-                <Grid container item xs={12} md={3}></Grid>
-                <Grid container item xs={1}></Grid>
             </Grid>
         </div>
     )
