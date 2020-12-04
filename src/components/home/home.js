@@ -33,13 +33,13 @@ function home(props) {
             
             <Grid container>
             <Grid container item xs={1} md={3} />
-                <Grid container item xs={10} md={6}>
+                <Grid container item xs={10} md={6} align="center">
                     <p className="toptext"> 
                     We're not just an orgranization, but a team
                     and a community, always learning from each other
                     and growing our skills togeter.
                     </p>
-                    </Grid>
+                </Grid>
             <Grid container item xs={1} md={3}/>        
             </Grid>
 
