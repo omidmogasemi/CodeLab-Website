@@ -24,8 +24,6 @@ body {
     font-weight: bold;
     font-size: 48px;
     line-height: 72px;
-    display: flex;
-    align-items: center;
 
     color: #000000;
   }
@@ -49,8 +47,6 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
-    display: flex;
-    justify-content: center;
     color: #000000;
   }
 }
@@ -99,7 +95,6 @@ body {
 @media (max-width: 768px) {
   .clientbox {
     width: 100%;
-    height: 23rem;
     background: #ffffff;
     padding-right: 0.1rem;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
@@ -163,7 +158,6 @@ li {
   .mentorbox {
     margin-top: 1rem;
     width: 100%;
-    height: 23rem;
     background: #ffffff;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -272,13 +266,13 @@ li {
 
 @media (max-width: 768px) {
   .applytext {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 36px;
+    line-height: 28px;
 
     color: #000000;
   }

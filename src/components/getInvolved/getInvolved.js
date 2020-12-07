@@ -1,15 +1,27 @@
 import React from "react";
-import { Grid, Link } from "@material-ui/core";
+import { Grid, Link, Hidden } from "@material-ui/core";
 import GetInvolvedGraphic1 from "./GetInvolvedGraphic1.png"
+import { makeStyles } from '@material-ui/core/styles';
 
-function getInvolved(props) {
+const useStyles = makeStyles({
+    leftCard: {
+      marginRight: "2rem",
+      ['@media (max-width: 768px)']: { // eslint-disable-line no-useless-computed-key
+        marginRight: "0rem",
+      },
+    },
+});
+
+function GetInvolved(props) {
+    const classes = useStyles();
+
     return (
         <Grid container direction="column">
             <div>
                 
                 <Grid item container>
                     <Grid item xs={0} md={1} />
-                    <Grid item xs={11} md={6} align="center">
+                    <Grid item xs={11} md={6}>
                         <header className="getinvolved">get involved.</header>
                     </Grid>
                 </Grid>
@@ -22,18 +34,20 @@ function getInvolved(props) {
                 </Grid>
 
                 <Grid item container>
-                    <Grid item xs={3} md={1} />
-                    <Grid item xs={6} md={6} justify="center">
+                    <Hidden only={['xs', 'sm']}>
+                        <Grid item xs={1} md={1} />
+                    </Hidden>
+                    <Grid item xs={12} md={6} justify="center">
                         <header className="projectteams">Project Teams</header>
                     </Grid>
                 </Grid>
 
                 <Grid item container>
                     <Grid item md={1} />
-                    <Grid item xs={10} md={5}>
+                    <Grid item xs={12} md={5} className={classes.leftCard}>
                         <div class="clientbox" justify="center">
                             <header class="clientheader">Client Project</header>
-                            <Grid item xs={10}>
+                            <Grid item xs={12}>
                                 <p className="clienttext">
                                     <br></br>
                                     Client project developers work on projects with companies and nonprofits. Client project developers should have more extensive programming experience. 
@@ -50,8 +64,7 @@ function getInvolved(props) {
                             </Grid>  
                         </div>
                     </Grid>
-                    <Grid item md={1} />
-                    <Grid item xs={10} md={5}>
+                    <Grid item xs={12} md={5}>
                         <div class="mentorbox">
                             <header class="mentorheader">Mentored Project</header>
                             <Grid item xs={11}>
@@ -111,47 +124,48 @@ function getInvolved(props) {
 
                 <Grid item container>
                     <Grid item md={1} />
-                    <Grid item xs={12} md={4} direction="column" justify="center">
-                        <header class="faqsubheader">Do I need to be a computer science major to apply to CodeLab?</header>
-                        <p class="faqtext">Nope! We are open to undergraduate students at UC Davis of any major. You do need to have some programming experience to join. Detailed requirements are above.</p>
-                    </Grid>
-
-                    <Grid item md={2} />
-                    
-                    <Grid item xs={12} md={4} direction="column" justify="center">
-                        <header class="faqsubheader">What types of projects do developers work on?</header>
-                        <p class="faqtext">Anything computer science, whether it be web development or data science. Projects are largely reliant on the needs of our clients from term to term. Mentored projects can often be more flexible in the computer science fields they involve.</p>
+                    <Grid container item xs={12} md={10}>
+                        <Grid item xs={12} md={6} direction="column" justify="center">
+                            <header class="faqsubheader">Do I need to be a computer science major to apply to CodeLab?</header>
+                            <p class="faqtext">Nope! We are open to undergraduate students at UC Davis of any major. You do need to have some programming experience to join. Detailed requirements are above.</p>
+                        </Grid>
+                        
+                        <Grid item xs={12} md={6} direction="column" justify="center">
+                            <header class="faqsubheader">What types of projects do developers work on?</header>
+                            <p class="faqtext">Anything computer science, whether it be web development or data science. Projects are largely reliant on the needs of our clients from term to term. Mentored projects can often be more flexible in the computer science fields they involve.</p>
+                        </Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container>
                     <Grid item md={1} />
-                    <Grid item xs={12} md={4} direction="column" justify="center">
-                        <header class="faqsubheader">What is the time commitment like?</header>
-                        <p class="faqtext">Developers are expected to put in 10+ hours a week. Depending on the part of the project you are working, this may fluctuate throughout the term. Being a developer can be time consuming. Before applying, please consider your other commitments to make sure you will be able to put in the time for CodeLab.</p>
-                    </Grid>
+                    <Grid container item xs={12} md={10}>
+                        <Grid item xs={12} md={6} direction="column" justify="center">
+                            <header class="faqsubheader">What is the time commitment like?</header>
+                            <p class="faqtext">Developers are expected to put in 10+ hours a week. Depending on the part of the project you are working, this may fluctuate throughout the term. Being a developer can be time consuming. Before applying, please consider your other commitments to make sure you will be able to put in the time for CodeLab.</p>
+                        </Grid>
 
-                    <Grid item xs={2} />
-
-                    <Grid item xs={12} md={4} direction="column" justify="center">
-                        <header class="faqsubheader">What does the recruitment process look like?</header>
-                        <p class="faqtext">The process currently involves a written application and a single round of interviews. Don’t be nervous about interviews. We just want to get to know you and learn about your past experiences. It will not be technical.</p>
+                        <Grid item xs={12} md={6} direction="column" justify="center">
+                            <header class="faqsubheader">What does the recruitment process look like?</header>
+                            <p class="faqtext">The process currently involves a written application and a single round of interviews. Don’t be nervous about interviews. We just want to get to know you and learn about your past experiences. It will not be technical.</p>
+                        </Grid>
                     </Grid>
                 </Grid>
 
                 <Grid item container>
-                    <Grid item xs={2} md={1} />
-                    <Grid item xs={7} md={11}>
+                    <Hidden only={['xs', 'sm']}>
+                        <Grid item xs={1} md={1} />
+                    </Hidden>
+                    <Grid item xs={10} md={10}>
                         <header class="readytoapply">Ready to Apply?</header>
-                    </Grid>
-                    <Grid item xs={0} md={1} />
-                    <Grid item xs={11} md={8} justify="center">
                         <p class="applytext">We’re currently taking applications for the Winter/Spring 2021 term. Applications are due Thursday, January 14th by 11:59PM.</p>
                     </Grid>
                 </Grid>
 
                 <Grid item container>
-                    <Grid item xs={2} md={1} />
+                    <Hidden only={['xs', 'sm']}>
+                        <Grid item xs={1} md={1} />
+                    </Hidden>
                     <Grid item xs={4} md={3}>
                         <Link href="/contactus">
                             <button className="applyButton">
@@ -165,4 +179,4 @@ function getInvolved(props) {
     )
 }
 
-export default getInvolved
+export default GetInvolved

@@ -87,6 +87,11 @@ input[type="submit"] {
   border-radius: 50px;
   -webkit-appearance: none;
   transition: 0.3s;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16x;
+  line-height: 24px;
 }
 
 input[type="submit"]:hover {
