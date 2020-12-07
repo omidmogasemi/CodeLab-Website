@@ -14,16 +14,12 @@ body {
 }
 
 .footer {
-  padding-top: 163px;
-}
-
-.nav {
-  visibility: visible;
+  padding-top: 10rem;
 }
 
 @media (max-width: 768px)
 {
-  .nav {
-    visibility: hidden;
+  .footer {
+    padding-top: 5rem;
   }
 }

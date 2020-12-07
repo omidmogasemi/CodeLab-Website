@@ -27,7 +27,6 @@
 }
 
 .txtf {
-  height: 160px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -38,6 +37,7 @@
 @media (max-width: 768px) {
   .txtf {
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
     line-height: 24px;
     font-size:16px;
   }
@@ -61,8 +61,14 @@
   font-family: Poppins;
   font-size: 24px;
   line-height: 36px;
-  margin-top: 5rem;
+  margin-top: 10rem;
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .tagtext {
+    margin-top: 7.5rem;
+  }
 }
 
 .applybuttontext {
@@ -118,7 +124,7 @@
 @media (max-width: 768px) {
   .homelogo {
     margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
 }
 

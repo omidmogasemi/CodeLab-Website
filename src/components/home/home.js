@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Link } from "@material-ui/core";
+import { Grid, Link, Hidden } from "@material-ui/core";
 import styles from "../../css/home.css"
 import logo from "./logo.svg"
 import PastWorkCard from "../projects/pastWorkCard.js";
@@ -18,13 +18,15 @@ function home(props) {
                 <Grid container item xs={10} md={4}>
                     <img className="imagestyle"src={logo}/>
                     <p class="txtf">
-                        We’re a team of driven software developers at UC Davis building projects for companies and <br></br>non-profits.
+                        We’re a team of driven software developers at UC Davis building projects for companies and non-profits.
                     </p>
                 </Grid>
                 <Grid container item xs={1}/>
-                <Grid container item xs={10} md={5}>
-                    <Grid container item xs={2} />
-                    <Grid container item xs={10}>
+                <Grid container item xs={12} md={5}>
+                    <Hidden only={['xs']}>
+                        <Grid container item sm={2} md={2} />
+                    </Hidden>
+                    <Grid container item xs={12} sm={8} md={10}>
                         <img className="homelogo" src={Homepg} />
                     </Grid>
                 </Grid>
