@@ -67,12 +67,37 @@
   color: #ffffff;
 }
 
+#emailbox {
+  font-family: Poppins;
+  width: 72.5%;
+  height: 48px;
+  padding-right: 50px;
+  border-radius: 50px;
+  border: 2px solid #C4C4C4;
+  padding-left: 5px;
+}
+
+input[type="submit"] { 
+  margin-left: -50px;
+  height: 48px;
+  width: 140px;
+  background: #ff7070;
+  color: white;
+  border: 2px solid #ff7070;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #471f1f;
+  border: 2px solid #471f1f;
+}
+
 .submitButton:hover {
   cursor: pointer;
   background: #471f1f;
-}
-
-.mobileinvisible {
 }
 
 .logoposition {
@@ -80,9 +105,6 @@
 }
 
 @media (max-width: 768px) {
-  .mobileinvisible {
-    display: none !important;
-  }
 
   .logoposition {
     margin-top: 1rem;

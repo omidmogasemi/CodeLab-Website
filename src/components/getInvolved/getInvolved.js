@@ -33,7 +33,7 @@ function getInvolved(props) {
                     <Grid item xs={10} md={5}>
                         <div class="clientbox" justify="center">
                             <header class="clientheader">Client Project</header>
-                            <Grid item xs={11}>
+                            <Grid item xs={10}>
                                 <p className="clienttext">
                                     <br></br>
                                     Client project developers work on projects with companies and nonprofits. Client project developers should have more extensive programming experience. 
@@ -42,7 +42,7 @@ function getInvolved(props) {
                                      Requirements:  
                                 </p>
                             </Grid>
-                            <Grid item xs={11}>
+                            <Grid item xs={10}>
                                 <ul className="clientreqs">
                                     <li>Taken or currently enrolled in ECS 36A, or equivalent programming experience.</li>
                                     <li>Completed a larger scale coding project (side project, industry experience, CodeLab project).</li>

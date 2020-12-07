@@ -23,8 +23,15 @@
   display: flex;
   font-size: 1.2rem;
   line-height: 2rem;
+  margin-bottom: 10rem;
 
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .contactq {
+    margin-bottom: 3rem;
+  }
 }
 
 .chatTitle {
@@ -33,7 +40,6 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 24px;
-  padding-top: 5rem;
 
   color: #000000;
 }
@@ -44,17 +50,29 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding-top: 1rem;
 
   color: #000000;
 }
 
-.space {
-  padding-top: 2rem;
+.submitButton {
+  width: 11.5rem;
+  margin-bottom: 0px;
+  background: #ff7070;
+  border-radius: 100px;
+  height: 2.5rem;
+  border: 0px solid transparent;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s;
 }
 
-.inputBox {
-  border: 2px solid #c4c4c4;
-  box-sizing: border-box;
-  border-radius: 5px;
+.submitButton:hover {
+  cursor: pointer;
+  background: #471f1f;
 }

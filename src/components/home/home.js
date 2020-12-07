@@ -91,7 +91,7 @@ function home(props) {
                     <Grid item container xs={1} />
                     <Grid item xs={10} md={10}>
                         <p className="tagtext"> <b>Join Us! </b></p>
-                        <p className="subtext">  We recruit twice a year, once in fall quarter and once in spring quarter. </p>
+                        <p className="subtext">  We recruit twice a year, once in fall quarter and once in winter quarter. </p>
                     </Grid>
                     <Grid item container xs={1} />
                     <Grid item container xs={1} />
