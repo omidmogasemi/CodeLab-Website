@@ -3,11 +3,6 @@ body {
 }
 
 .getinvolved {
-  /* position: absolute;*/
-  /* width: 406px;
-  height: 43px;
-  left: 200px;
-  top: 361px; */
   margin-top: 10rem;
   font-family: Poppins;
   font-style: normal;
@@ -20,12 +15,23 @@ body {
   color: #000000;
 }
 
+@media (max-width: 768px) {
+  .getinvolved {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+}
+
 .getinvolvedsub {
-  /*position: absolute;*/
-  /* width: 510px;
-  height: 60px;
-  left: 200px;
-  top: 430px; */
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -35,12 +41,21 @@ body {
   color: #000000;
 }
 
+@media (max-width: 768px) {
+  .getinvolvedsub {
+    margin-left: 1rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+  }
+}
+
 .projectteams {
-  /* position: absolute;*/
-  /* width: 1034px;
-  height: 43px;
-  left: 200px;
-  top: 700px; */
   padding-top: 200px;
   padding-bottom: 30px;
   font-family: Poppins;
@@ -53,24 +68,14 @@ body {
 }
 
 .clientbox {
-  /* position: absolute;*/
   width: 35rem;
   height: 25rem;
-  /*left: 200px;
-  top: 768px; */
   background: #ffffff;
-  /* Drop Shadow */
-
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
 .clientheader {
-  /* position: absolute;*/
-  /* width: 425px;
-  height: 36px;
-  left: 245px;
-  top: 809px; */
   padding-top: 30px;
   padding-left: 40px;
   font-family: Poppins;
@@ -78,39 +83,28 @@ body {
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-
   color: #000000;
 }
 
 .clienttext {
-  /* position: absolute;*/
-  /* width: 425px;
-  height: 105px;
-  left: 245px;
-  top: 862px; */
   padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
 @media (max-width: 768px) {
   .clientbox {
-    /* position: absolute;*/
     width: 23rem;
     height: 23rem;
-    /*left: 200px;
-    top: 768px; */
     background: #ffffff;
-    /* Drop Shadow */
-
+    padding-right: 0.1rem;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    align-items: flex-start;
   }
 }
 
@@ -118,12 +112,6 @@ li {
   margin-left: 25px;
 }
 .clientreqs {
-  /* position: absolute;*/
-  /* width: 477px;
-  height: 84px;
-  left: 180px;
-  top: 967px; */
-
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -134,23 +122,14 @@ li {
 }
 
 .mentorbox {
-  /* position: absolute;*/
   width: 35rem;
   height: 25rem;
-  /* left: 730px;
-  top: 768px; */
   background: #ffffff;
-  /* Drop Shadow */
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
 .mentorheader {
-  /* position: absolute; */
-  /* width: 425px;
-  height: 36px;
-  left: 775px;
-  top: 809px; */
   padding-top: 30px;
   padding-left: 40px;
   font-family: Poppins;
@@ -158,87 +137,56 @@ li {
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-
   color: #000000;
 }
 
 .mentortext {
-  /* position: absolute; */
-  /* width: 425px;
-  height: 105px;
-  left: 775px;
-  top: 862px; */
   padding-left: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
 .mentorreqs {
-  /* position: absolute;*/
-  /* width: 477px;
-  height: 84px;
-  left: 710px;
-  top: 967px; */
-
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
 @media (max-width: 768px) {
   .mentorbox {
-    /* position: absolute;*/
+    margin-top: 1rem;
     width: 23rem;
     height: 23rem;
-    /*left: 200px;
-    top: 768px; */
     background: #ffffff;
-    /* Drop Shadow */
-
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
 }
 
 .quarterheader {
-  /* position: absolute;*/
-  /* width: 1034px;
-  height: 43px;
-  left: 200px;
-  top: 1203px; */
   padding-top: 100px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
-
   color: #000000;
 }
 
 .quartertext {
-  /* position: absolute;*/
-  /* width: 510px;
-  height: 273px;
-  left: 200px;
-  top: 1270px; */
   padding-top: 30px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
@@ -248,28 +196,21 @@ li {
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
 .qtrimagespace {
-  /*position: absolute;*/
   margin-top: 10rem;
   width: 100%;
   height: auto;
-  /* left: 803px;
-  top: 1299px; */
 }
 
 @media (max-width: 768px) {
   .qtrimagespace {
-    /*position: absolute;*/
     margin-top: 2rem;
     width: 100%;
     height: auto;
     margin-bottom: 3rem;
-    /* left: 803px;
-    top: 1299px; */
   }
 }
 
