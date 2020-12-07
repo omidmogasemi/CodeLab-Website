@@ -50,6 +50,9 @@ const about =()=> {
                     </h3>
                 </Grid>
 
+                <Grid container item xs={1} md={3}/>        
+
+
                 <Grid container item xs={12} md={3} style={{marginBottom: "0.5rem"}}>
                     <div className="teamPhoto" >
                         <img src={essam} alt='' />
@@ -95,7 +98,7 @@ const about =()=> {
                 <Grid container item xs={12} md={3} style={{marginBottom: "0.5rem"}}>
                     <div className="teamPhoto" >
                         <img src={guk} alt='' />
-                        <body1 className="name">Guk Kim <br /></body1> 
+                        <body1 className="name"> Guk Kim <br /></body1> 
                         <body1 className="title">Developer</body1>              
                     </div>
                 </Grid>
