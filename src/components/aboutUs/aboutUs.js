@@ -53,77 +53,77 @@ function About() {
                     </h3>
                 </Grid>
  
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto">
                         <img src={essam} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Essam Sleiman <br /></body1> 
                         <body1 className="title">President</body1>
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={omid} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Omid Mogasemi<br /></body1> 
                         <body1 className="title">VP of Projects</body1>       
                      </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={james} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">James Junaidi <br /></body1> 
                         <body1 className="title">VP of Operations</body1>      
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={edward} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Edward Chew <br /></body1> 
                         <body1 className="title">VP of External</body1>               
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={tom} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Tom Abraham <br /></body1> 
                         <body1 className="title">Developer</body1> 
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={chris} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Chris Havens <br /></body1> 
                         <body1 className="title">Developer</body1>      
                      </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={guk} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name"> Guk Kim <br /></body1> 
                         <body1 className="title">Developer</body1>              
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={andy} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Andy Ren <br /></body1> 
                         <body1 className="title">Developer</body1>              
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={vishnu} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Vishnu Vennelakanti <br /></body1> 
                         <body1 className="title">Developer</body1>                   
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={jeffrey} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Jeffrey Zang <br /></body1> 
                         <body1 className="title">Developer</body1> 
                     </div>
                 </Grid>
-                <Grid container item xs={12} md={3} style={{marginBottom: "1.25rem"}}>
+                <Grid container item xs={12} md={3} className="membercontainer" style={{marginBottom: "1.25rem"}}>
                     <div className="teamPhoto" >
                         <img src={henry} alt='' style={{marginBottom: "0.5rem"}} />
                         <body1 className="name">Henry Zhu <br /></body1> 
