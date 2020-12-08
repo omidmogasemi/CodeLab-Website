@@ -37,7 +37,7 @@ function home(props) {
             <Grid container item xs={1} md={3} />
                 <Grid container item xs={10} md={6} align="center">
                     <p className="toptext"> 
-                    We're not just an orgranization, but a team
+                    We're not just an organization, but a team
                     and a community, always learning from each other
                     and growing our skills togeter.
                     </p>
@@ -98,7 +98,7 @@ function home(props) {
                     <Grid item container xs={1} />
                     <Grid item container xs={1} />
                         <Grid container item xs={11} md={11}>
-                            <Link href="/aboutus">
+                            <Link href="/about">
                                 <button className="applyButton">
                                     <body1>Learn More</body1>
                                 </button>

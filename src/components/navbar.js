@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Link, Hidden } from "@material-ui/core";
-import logo from "../logo.png";
+import logo from "./home/logo.svg"
 import MobileDrawer from "./MobileDrawer"
 import styles from "../css/navbar.css";
 
