@@ -87,6 +87,7 @@
 }
 
 .applyButton {
+  margin-left: 0px;
   width: 12rem;
   margin-bottom: 0px;
   background: #ff7070;
@@ -102,11 +103,6 @@
   align-items: center;
   text-align: center;
   transition: 0.3s;
-}
-
-.applyButton:hover {
-  cursor: pointer;
-  background: #471f1f;
 }
 
 .linkstyle {

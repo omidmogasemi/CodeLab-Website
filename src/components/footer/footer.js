@@ -1,7 +1,9 @@
 import React from "react";
-import { Grid, Link, Hidden, TextField } from "@material-ui/core";
+import { Grid, Link, Hidden } from "@material-ui/core";
 import logo from "../../logo.png";
 import "../../css/footer.css";
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
+import Mailchimp from 'react-mailchimp-form'
 
 function Footer(props) {
   return (
@@ -58,11 +60,17 @@ function Footer(props) {
           </Grid>
 
           <Grid container item xs={12}>
-            <input id="emailbox" placeholder="Email" type="text" /> <input type="submit" />
-            {/* <input className="mailingListBox" type="text" placeholder="Email" />
-            <button className="submitButton">
-              <body1 className="submitButtonText">Submit</body1>
-            </button> */}
+          <Mailchimp
+            action={process.env.REACT_APP_MAILCHIMP_URL}
+            fields={[
+              {
+                name: 'EMAIL',
+                placeholder: 'Email',
+                type: 'email',
+                required: true
+              }
+            ]}
+          />
           </Grid>
         </Grid>
 

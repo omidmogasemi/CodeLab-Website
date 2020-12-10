@@ -46,7 +46,7 @@ function projects(props) {
 
             <Grid container spacing={3}>
                 <Grid container item xs={0} md={1}></Grid>
-                <Grid container item xs={12} md={3}>
+                <Grid container item xs={12} sm={6} md={3}>
                     <PastWorkCard 
                         logo={ambiilogo} 
                         companyName="Ambii" 
@@ -54,7 +54,7 @@ function projects(props) {
                     />
                 </Grid>
 
-                <Grid container item xs={12} md={3}>
+                <Grid container item xs={12} sm={6} md={3}>
                     <PastWorkCard 
                         logo={codelablogo}
                         companyName="CodeLab"
