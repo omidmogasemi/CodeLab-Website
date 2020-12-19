@@ -79,7 +79,7 @@ function Footer(props) {
         <Hidden only={['xs', 'sm']}>
           <Grid container item xs={true} md={2} justify="center">
             <Link href="/">
-              <img src={logo} className="logoposition" />
+              <img src={logo} className="logoposition" alt="Codelab Logo" />
             </Link>
           </Grid>
         </Hidden>

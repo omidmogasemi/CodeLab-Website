@@ -23,7 +23,7 @@ function Navbar(props) {
         {/* think of the full width of the page as a unit of 12. you are taking up the 6 most left units first, or 6/12 AKA 1/2 of the entire page.  */}
         <Grid container item xs={3}>
           <Link href="/">
-            <img class="logo" src={logo} />
+            <img class="logo" src={logo} alt="Codelab Logo" />
           </Link>
         </Grid>
         {/* another container item taking up the right 6/12ths of the page */}

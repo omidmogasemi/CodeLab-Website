@@ -110,7 +110,7 @@ function GetInvolved(props) {
                     <Grid item xs={4} md={1} />
                     <Grid item xs={12} md={4}>
                         <div>
-                            <img className="qtrimagespace" src={GetInvolvedGraphic1} alt="Get Involved!"></img>
+                            <img className="qtrimagespace" src={GetInvolvedGraphic1} alt="Man and Woman Coding"></img>
                         </div>
                     </Grid>
                 </Grid>

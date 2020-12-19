@@ -16,7 +16,7 @@ function home(props) {
             <Grid container>
                 <Grid container item xs={1} />
                 <Grid container item xs={10} md={4}>
-                    <img className="imagestyle"src={logo}/>
+                    <img className="imagestyle"src={logo} alt="Codelab Logo" />
                     <p class="txtf">
                         We’re a team of driven software developers at UC Davis building projects for companies and non-profits.
                     </p>
@@ -27,7 +27,7 @@ function home(props) {
                         <Grid container item sm={2} md={2} />
                     </Hidden>
                     <Grid container item xs={12} sm={8} md={10}>
-                        <img className="homelogo" src={Homepg} />
+                        <img className="homelogo" src={Homepg} alt="Man Writing Code" />
                     </Grid>
                 </Grid>
 
@@ -48,14 +48,14 @@ function home(props) {
             <Grid container style={{marginTop: "3rem"}}>
                 <Grid container item xs={1} />        
                 <Grid container item xs={10} md={5}>
-                    <img className="leftimage" src={left} style={{marginRight: "1rem"}}/>
+                    <img className="leftimage" src={left} alt="All Team Meeting" style={{marginRight: "1rem"}}/>
                 </Grid>
                 <Grid container item xs={1} md={true}/>
                 <Grid container item xs={1} md={true} />
                 <Grid contanier item xs={10} md={5}>
-                        <img className="rightimage1" src={topright} style={{marginBottom: "1rem"}}/>
+                        <img className="rightimage1" alt="Whole Club Meeting" src={topright} style={{marginBottom: "1rem"}}/>
                         <br></br>
-                        <img className="rightimage2" src={bottom}/>
+                        <img className="rightimage2" alt="Board Meeting" src={bottom}/>
                 </Grid>
                 <Grid container item xs={1} />
             </Grid>

@@ -7,7 +7,7 @@ function PastWorkCard(props) {
         <div className="pastWorkCard">
             <Grid container>
                 <Grid item container justify="center" xs={12}>
-                    <img className="pastWorkCardImage" src={props.logo}/>
+                    <img className="pastWorkCardImage" src={props.logo} alt="Company Logo" />
                 </Grid>
 
                 <Grid item container xs={1}></Grid>

@@ -1,6 +1,8 @@
 {
   "name": "codelab-website",
+  "description": "Codelab Davis Website",
   "version": "0.1.0",
+  "author": "Fall 2020 CodeLab Mentored Team",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
