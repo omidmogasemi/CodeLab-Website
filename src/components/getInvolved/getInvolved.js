@@ -168,7 +168,7 @@ function GetInvolved(props) {
                     </Hidden>
                     <Grid item xs={4} md={3}>
                         <Link href="/contactus">
-                            <button className="applyButton">
+                            <button className="applyButton" onClick={() => window.open("https://airtable.com/shrxpt30m2dncUawU")}>
                                 <body1>Apply Here</body1>
                             </button>
                         </Link>

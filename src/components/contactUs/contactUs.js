@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import "./contactUs.css";
-import { Grid, TextField } from "@material-ui/core";
+import { Grid, TextField, Snackbar } from "@material-ui/core";
+import MuiAlert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/core/styles';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 require("dotenv").config({ path: "../../../.env" });
+
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />;
+}
 
 const useStyles = makeStyles({
   leftField: {
@@ -34,6 +39,8 @@ function ContactUs(props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [success, setSuccess] = useState(false);
+  const [failure, setFailure] = useState(false);
 
   function sendEmail() {
     var templateParams = {
@@ -46,7 +53,13 @@ function ContactUs(props) {
     setEmail("");
     setMessage("");
 
-    emailjs.send(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, templateParams, process.env.REACT_APP_UID);
+    emailjs.send(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, templateParams, process.env.REACT_APP_UID)
+    .then(function(response) {
+      setSuccess(true);
+    }, 
+    function(error) {
+      setFailure(true);
+    });
   }
 
   const handlenamechange = (event) => {
@@ -59,6 +72,11 @@ function ContactUs(props) {
 
   const handlemessagechange = (event) => {
     setMessage(event.target.value);
+  }
+
+  const handleClose = () => {
+    setSuccess(false);
+    setFailure(false);
   }
 
   return (
@@ -87,19 +105,29 @@ function ContactUs(props) {
 
         <Grid container item xs={12} md={8}>
           <Grid container item xs={12} md={6}>
-            <TextField onChange={handlenamechange} className={classes.leftField} id="form-name" label="Name" type="name" variant="outlined" fullWidth />
+            <TextField onChange={handlenamechange} className={classes.leftField} id="form-name" label="Name" type="name" variant="outlined" value={name} fullWidth />
           </Grid>
           <Grid container item xs={12} md={6}>
-            <TextField onChange={handleemailchange} className={classes.rightField} id="form-email" label="Email" type="email" variant="outlined" fullWidth />
+            <TextField onChange={handleemailchange} className={classes.rightField} id="form-email" label="Email" type="email" variant="outlined" value={email} fullWidth />
           </Grid>
           <Grid container item xs={12}>
-            <TextField onChange={handlemessagechange} className={classes.bottomField} id="form-message" label="Message" type="message" variant="outlined" fullWidth multiline rows={10} rowsMax={10} />
+            <TextField onChange={handlemessagechange} className={classes.bottomField} id="form-message" label="Message" type="message" variant="outlined" value={message} fullWidth multiline rows={10} rowsMax={10} />
           </Grid>
           <Grid container item xs={12} justify="flex-end">
               <button className="submitButton" onClick={sendEmail}>
                   <body1>Submit</body1>
               </button>                 
           </Grid>
+          <Snackbar open={success} autoHideDuration={6000} onClose={handleClose}>
+            <Alert onClose={handleClose} severity="success">
+              Your message has been sent. Thank you! 
+            </Alert>
+          </Snackbar>
+          <Snackbar open={failure} autoHideDuration={6000} onClose={handleClose}>
+            <Alert onClose={handleClose} severity="error">
+              There was an error sending a message. Please email us directly at codelabdavis@gmail.com.
+            </Alert>
+          </Snackbar>
         </Grid>
       </Grid>
       <Grid container xs={1} />
