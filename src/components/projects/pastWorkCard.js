@@ -4,7 +4,7 @@ import "../../css/projects.css";
 
 function PastWorkCard(props) {
     return (
-        <div className="pastWorkCard">
+        <div className="pastWorkCard" onClick={() => window.open(props.projectLink)}>
             <Grid container>
                 <Grid item container justify="center" xs={12}>
                     <img className="pastWorkCardImage" src={props.logo} alt="Company Logo" />
@@ -17,8 +17,13 @@ function PastWorkCard(props) {
                 <Grid container item xs={1}></Grid>
 
                 <Grid item container xs={1}></Grid>
-                <Grid item container xs={10}>
+                <Grid item container xs={10} rows={4}>
                     <p className="pastWorkCard-description">{props.projectDescription}</p>
+                </Grid>
+                <Grid container item xs={1}></Grid>
+                <Grid item container xs={1}></Grid>
+                <Grid item container xs={10}>
+                    <p className="pastWorkCard-link" href={props.projectLink}>View the project here</p>
                 </Grid>
                 <Grid container item xs={1}></Grid>
             </Grid>

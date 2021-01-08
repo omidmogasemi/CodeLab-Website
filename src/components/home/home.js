@@ -76,13 +76,15 @@ function home(props) {
                         logo={ambiilogo} 
                         companyName="Ambii" 
                         projectDescription="Worked with Ambii, a music streaming service for businesses, to create an internal UI to manage their databases."
+                        projectLink="https://codelabdavis.medium.com/ambii-internal-ui-fall-20-client-project-2385a0d99ced"
                     />
                 </Grid>
                 <Grid container item xs={12} sm={6} md={3}>
                     <PastWorkCard 
                         logo={codelablogo}
                         companyName="CodeLab"
-                        projectDescription="Built the many pages of CodeLab’s website with ReactJS."
+                        projectDescription={<div>Built the many pages of CodeLab’s website with ReactJS. <br /> <br /> </div>}
+                        projectLink="https://codelabdavis.medium.com/codelab-website-fall-20-mentored-project-d5559c54743f"
                     />
                 </Grid>
                 <Grid container item xs={1}></Grid>
