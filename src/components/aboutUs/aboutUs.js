@@ -34,6 +34,8 @@ import nicole from "./images/nicole.jpg"
 
 function About() {
 
+    // see below for all about us photos 
+
     return (
         <Grid container>
             <Grid container>
