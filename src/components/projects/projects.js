@@ -9,7 +9,7 @@ import familyproud from "./familyproud.png";
 import handstogether from "./handstogether.png";
 import aggieexplorer from "./aggieexplorer.png";
 
-// re-trigger vercel autodeploy 
+// re-trigger vercel autodeploy test 
 
 function projects(props) {
     return (
