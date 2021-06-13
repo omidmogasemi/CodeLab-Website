@@ -7,7 +7,9 @@ import codelablogo from "./LogoIcon.png";
 import refocusai from "./refocusai.png";
 import familyproud from "./familyproud.png";
 import handstogether from "./handstogether.png";
-import aggieexplorer from "./aggieexplorer.png"; 
+import aggieexplorer from "./aggieexplorer.png";
+
+// re-trigger vercel autodeploy 
 
 function projects(props) {
     return (
